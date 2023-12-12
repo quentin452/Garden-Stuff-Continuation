@@ -136,7 +136,7 @@ public class BloomeryFurnaceRecipeHandler extends TemplateRecipeHandler {
       PositionedStack result;
 
       public SmeltingPair(ItemStack ingred1, ItemStack ingred2, ItemStack result) {
-         super(BloomeryFurnaceRecipeHandler.this);
+         super();
          ingred1.stackSize = 1;
          ingred2.stackSize = 1;
          this.ingred1 = new PositionedStack(ingred1, 51, 6);

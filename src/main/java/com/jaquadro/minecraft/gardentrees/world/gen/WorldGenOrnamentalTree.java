@@ -128,7 +128,7 @@ public abstract class WorldGenOrnamentalTree extends WorldGenAbstractTree {
 
    private int getNeighborAirCount(World world, int x, int y, int z) {
       int count = 0;
-      int count = count + (world.isAirBlock(x - 1, y, z - 1) ? 1 : 0);
+      count = count + (world.isAirBlock(x - 1, y, z - 1) ? 1 : 0);
       count += world.isAirBlock(x - 1, y, z) ? 1 : 0;
       count += world.isAirBlock(x - 1, y, z + 1) ? 1 : 0;
       count += world.isAirBlock(x, y, z - 1) ? 1 : 0;
