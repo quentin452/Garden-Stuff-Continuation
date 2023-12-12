@@ -1,16 +1,14 @@
 package com.jaquadro.minecraft.gardencommon.integration;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import org.apache.logging.log4j.Level;
-
 import com.jaquadro.minecraft.gardencommon.integration.mods.AgriCraft;
 import com.jaquadro.minecraft.gardencommon.integration.mods.BiomesOPlenty;
 import com.jaquadro.minecraft.gardencommon.integration.mods.Botania;
-
 import cpw.mods.fml.common.FMLLog;
 import cpw.mods.fml.common.Loader;
+import org.apache.logging.log4j.Level;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class IntegrationRegistry {
 

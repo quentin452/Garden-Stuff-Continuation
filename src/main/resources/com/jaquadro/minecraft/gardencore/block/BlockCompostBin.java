@@ -8,7 +8,6 @@ import com.jaquadro.minecraft.gardencore.core.ModCreativeTabs;
 import com.jaquadro.minecraft.gardencore.core.handlers.GuiHandler;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
-import java.util.Random;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockContainer;
 import net.minecraft.block.material.Material;
@@ -19,6 +18,8 @@ import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.IIcon;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
+
+import java.util.Random;
 
 public class BlockCompostBin extends BlockContainer {
    private static final int ICON_SIDE = 0;

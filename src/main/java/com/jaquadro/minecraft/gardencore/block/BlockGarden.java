@@ -1,7 +1,14 @@
 package com.jaquadro.minecraft.gardencore.block;
 
-import java.util.Iterator;
-
+import com.jaquadro.minecraft.gardencore.api.IPlantProxy;
+import com.jaquadro.minecraft.gardencore.api.block.IGardenBlock;
+import com.jaquadro.minecraft.gardencore.api.block.garden.IConnectionProfile;
+import com.jaquadro.minecraft.gardencore.api.block.garden.ISlotProfile;
+import com.jaquadro.minecraft.gardencore.api.block.garden.ISlotShareProfile;
+import com.jaquadro.minecraft.gardencore.api.plant.PlantItem;
+import com.jaquadro.minecraft.gardencore.block.tile.TileEntityGarden;
+import com.jaquadro.minecraft.gardencore.core.ModBlocks;
+import com.jaquadro.minecraft.gardencore.core.ModItems;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockContainer;
 import net.minecraft.block.material.Material;
@@ -15,15 +22,7 @@ import net.minecraft.world.World;
 import net.minecraftforge.common.IPlantable;
 import net.minecraftforge.common.util.ForgeDirection;
 
-import com.jaquadro.minecraft.gardencore.api.IPlantProxy;
-import com.jaquadro.minecraft.gardencore.api.block.IGardenBlock;
-import com.jaquadro.minecraft.gardencore.api.block.garden.IConnectionProfile;
-import com.jaquadro.minecraft.gardencore.api.block.garden.ISlotProfile;
-import com.jaquadro.minecraft.gardencore.api.block.garden.ISlotShareProfile;
-import com.jaquadro.minecraft.gardencore.api.plant.PlantItem;
-import com.jaquadro.minecraft.gardencore.block.tile.TileEntityGarden;
-import com.jaquadro.minecraft.gardencore.core.ModBlocks;
-import com.jaquadro.minecraft.gardencore.core.ModItems;
+import java.util.Iterator;
 
 public abstract class BlockGarden extends BlockContainer implements IGardenBlock {
 

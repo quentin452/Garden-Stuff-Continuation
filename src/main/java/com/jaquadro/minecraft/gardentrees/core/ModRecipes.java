@@ -1,8 +1,12 @@
 package com.jaquadro.minecraft.gardentrees.core;
 
-import java.util.Iterator;
-import java.util.Map.Entry;
-
+import com.jaquadro.minecraft.gardencore.api.WoodRegistry;
+import com.jaquadro.minecraft.gardencore.util.UniqueMetaIdentifier;
+import com.jaquadro.minecraft.gardentrees.block.BlockThinLog;
+import com.jaquadro.minecraft.gardentrees.core.recipe.WoodBlockRecipe;
+import com.jaquadro.minecraft.gardentrees.core.recipe.WoodFenceRecipe;
+import com.jaquadro.minecraft.gardentrees.core.recipe.WoodPostRecipe;
+import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
@@ -11,14 +15,8 @@ import net.minecraft.item.crafting.CraftingManager;
 import net.minecraftforge.oredict.RecipeSorter;
 import net.minecraftforge.oredict.RecipeSorter.Category;
 
-import com.jaquadro.minecraft.gardencore.api.WoodRegistry;
-import com.jaquadro.minecraft.gardencore.util.UniqueMetaIdentifier;
-import com.jaquadro.minecraft.gardentrees.block.BlockThinLog;
-import com.jaquadro.minecraft.gardentrees.core.recipe.WoodBlockRecipe;
-import com.jaquadro.minecraft.gardentrees.core.recipe.WoodFenceRecipe;
-import com.jaquadro.minecraft.gardentrees.core.recipe.WoodPostRecipe;
-
-import cpw.mods.fml.common.registry.GameRegistry;
+import java.util.Iterator;
+import java.util.Map.Entry;
 
 public class ModRecipes {
 

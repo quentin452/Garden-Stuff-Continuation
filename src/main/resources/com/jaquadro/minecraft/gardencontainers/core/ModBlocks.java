@@ -1,20 +1,7 @@
 package com.jaquadro.minecraft.gardencontainers.core;
 
-import com.jaquadro.minecraft.gardencontainers.block.BlockDecorativePot;
-import com.jaquadro.minecraft.gardencontainers.block.BlockLargePot;
-import com.jaquadro.minecraft.gardencontainers.block.BlockLargePotColored;
-import com.jaquadro.minecraft.gardencontainers.block.BlockLargePotStandard;
-import com.jaquadro.minecraft.gardencontainers.block.BlockMediumPot;
-import com.jaquadro.minecraft.gardencontainers.block.BlockMediumPotColored;
-import com.jaquadro.minecraft.gardencontainers.block.BlockMediumPotStandard;
-import com.jaquadro.minecraft.gardencontainers.block.BlockPotteryTable;
-import com.jaquadro.minecraft.gardencontainers.block.BlockWindowBox;
-import com.jaquadro.minecraft.gardencontainers.block.BlockWindowBoxStone;
-import com.jaquadro.minecraft.gardencontainers.block.tile.TileEntityDecorativePot;
-import com.jaquadro.minecraft.gardencontainers.block.tile.TileEntityLargePot;
-import com.jaquadro.minecraft.gardencontainers.block.tile.TileEntityMediumPot;
-import com.jaquadro.minecraft.gardencontainers.block.tile.TileEntityPotteryTable;
-import com.jaquadro.minecraft.gardencontainers.block.tile.TileEntityWindowBox;
+import com.jaquadro.minecraft.gardencontainers.block.*;
+import com.jaquadro.minecraft.gardencontainers.block.tile.*;
 import com.jaquadro.minecraft.gardencontainers.item.ItemDecorativePot;
 import com.jaquadro.minecraft.gardencontainers.item.ItemLargePot;
 import com.jaquadro.minecraft.gardencontainers.item.ItemMediumPot;

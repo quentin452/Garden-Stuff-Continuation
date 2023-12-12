@@ -1,9 +1,8 @@
 package com.jaquadro.minecraft.gardencore.integration;
 
+import com.jaquadro.minecraft.gardencore.api.IPlantMetaResolver;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockDoublePlant;
-
-import com.jaquadro.minecraft.gardencore.api.IPlantMetaResolver;
 
 public class VanillaMetaResolver implements IPlantMetaResolver {
 

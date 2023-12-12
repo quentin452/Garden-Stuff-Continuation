@@ -8,8 +8,6 @@ import com.jaquadro.minecraft.gardenstuff.block.tile.TileEntityCandelabra;
 import com.jaquadro.minecraft.gardenstuff.core.ClientProxy;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
-import java.util.List;
-import java.util.Random;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockContainer;
 import net.minecraft.block.material.Material;
@@ -26,6 +24,9 @@ import net.minecraft.util.MathHelper;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 import net.minecraftforge.common.util.ForgeDirection;
+
+import java.util.List;
+import java.util.Random;
 
 public class BlockCandelabra extends BlockContainer {
    @SideOnly(Side.CLIENT)

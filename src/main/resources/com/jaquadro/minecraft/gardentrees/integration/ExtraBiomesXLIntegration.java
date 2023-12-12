@@ -6,11 +6,12 @@ import com.jaquadro.minecraft.gardentrees.world.gen.OrnamentalTreeFactory;
 import com.jaquadro.minecraft.gardentrees.world.gen.OrnamentalTreeRegistry;
 import cpw.mods.fml.common.Loader;
 import cpw.mods.fml.common.registry.GameRegistry;
+import net.minecraft.item.Item;
+
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 import java.util.Map.Entry;
-import net.minecraft.item.Item;
 
 public class ExtraBiomesXLIntegration {
    public static final String MOD_ID = "ExtrabiomesXL";

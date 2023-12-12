@@ -1,10 +1,9 @@
 package com.jaquadro.minecraft.gardenapi.api.plant;
 
-import java.util.Set;
-
+import com.jaquadro.minecraft.gardenapi.api.util.IUniqueID;
 import net.minecraft.block.Block;
 
-import com.jaquadro.minecraft.gardenapi.api.util.IUniqueID;
+import java.util.Set;
 
 public interface IWoodRegistry {
 

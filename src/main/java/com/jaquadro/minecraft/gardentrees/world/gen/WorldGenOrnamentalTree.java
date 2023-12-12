@@ -1,15 +1,14 @@
 package com.jaquadro.minecraft.gardentrees.world.gen;
 
-import java.util.Random;
-
+import com.jaquadro.minecraft.gardencore.api.WoodRegistry;
+import com.jaquadro.minecraft.gardentrees.block.tile.TileEntityWoodProxy;
+import com.jaquadro.minecraft.gardentrees.core.ModBlocks;
 import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;
 import net.minecraft.world.World;
 import net.minecraft.world.gen.feature.WorldGenAbstractTree;
 
-import com.jaquadro.minecraft.gardencore.api.WoodRegistry;
-import com.jaquadro.minecraft.gardentrees.block.tile.TileEntityWoodProxy;
-import com.jaquadro.minecraft.gardentrees.core.ModBlocks;
+import java.util.Random;
 
 public abstract class WorldGenOrnamentalTree extends WorldGenAbstractTree {
 

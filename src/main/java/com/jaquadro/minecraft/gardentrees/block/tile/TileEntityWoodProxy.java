@@ -1,5 +1,6 @@
 package com.jaquadro.minecraft.gardentrees.block.tile;
 
+import cpw.mods.fml.common.registry.GameData;
 import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;
 import net.minecraft.nbt.NBTTagCompound;
@@ -8,8 +9,6 @@ import net.minecraft.network.Packet;
 import net.minecraft.network.play.server.S35PacketUpdateTileEntity;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.world.World;
-
-import cpw.mods.fml.common.registry.GameData;
 
 public class TileEntityWoodProxy extends TileEntity {
 

@@ -1,12 +1,12 @@
 package com.jaquadro.minecraft.gardentrees.world.gen;
 
+import net.minecraft.block.Block;
+import net.minecraft.world.World;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
-
-import net.minecraft.block.Block;
-import net.minecraft.world.World;
 
 public abstract class WorldGenStandardOrnTree extends WorldGenOrnamentalTree {
 

@@ -1,5 +1,10 @@
 package com.jaquadro.minecraft.gardenstuff.block.tile;
 
+import com.jaquadro.minecraft.gardenstuff.block.BlockBloomeryFurnace;
+import com.jaquadro.minecraft.gardenstuff.core.ModBlocks;
+import com.jaquadro.minecraft.gardenstuff.core.ModItems;
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.Block;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Blocks;
@@ -11,13 +16,6 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.nbt.NBTTagList;
 import net.minecraft.tileentity.TileEntity;
-
-import com.jaquadro.minecraft.gardenstuff.block.BlockBloomeryFurnace;
-import com.jaquadro.minecraft.gardenstuff.core.ModBlocks;
-import com.jaquadro.minecraft.gardenstuff.core.ModItems;
-
-import cpw.mods.fml.relauncher.Side;
-import cpw.mods.fml.relauncher.SideOnly;
 
 public class TileEntityBloomeryFurnace extends TileEntity implements ISidedInventory {
 

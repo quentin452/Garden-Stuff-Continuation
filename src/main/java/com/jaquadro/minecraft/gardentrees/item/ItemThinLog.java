@@ -1,5 +1,8 @@
 package com.jaquadro.minecraft.gardentrees.item;
 
+import com.jaquadro.minecraft.gardentrees.block.BlockThinLog;
+import com.jaquadro.minecraft.gardentrees.block.tile.TileEntityWoodProxy;
+import com.jaquadro.minecraft.gardentrees.core.ModBlocks;
 import net.minecraft.block.Block;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.entity.player.EntityPlayer;
@@ -9,10 +12,6 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.IIcon;
 import net.minecraft.util.StatCollector;
 import net.minecraft.world.World;
-
-import com.jaquadro.minecraft.gardentrees.block.BlockThinLog;
-import com.jaquadro.minecraft.gardentrees.block.tile.TileEntityWoodProxy;
-import com.jaquadro.minecraft.gardentrees.core.ModBlocks;
 
 public class ItemThinLog extends ItemBlock {
 

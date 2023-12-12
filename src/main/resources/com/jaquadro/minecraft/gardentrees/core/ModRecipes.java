@@ -7,8 +7,6 @@ import com.jaquadro.minecraft.gardentrees.core.recipe.WoodBlockRecipe;
 import com.jaquadro.minecraft.gardentrees.core.recipe.WoodFenceRecipe;
 import com.jaquadro.minecraft.gardentrees.core.recipe.WoodPostRecipe;
 import cpw.mods.fml.common.registry.GameRegistry;
-import java.util.Iterator;
-import java.util.Map.Entry;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
@@ -16,6 +14,9 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.crafting.CraftingManager;
 import net.minecraftforge.oredict.RecipeSorter;
 import net.minecraftforge.oredict.RecipeSorter.Category;
+
+import java.util.Iterator;
+import java.util.Map.Entry;
 
 public class ModRecipes {
    private static final Item[] axeList;

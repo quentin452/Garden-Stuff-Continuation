@@ -1,7 +1,13 @@
 package com.jaquadro.minecraft.gardencore.block;
 
-import java.util.Random;
-
+import com.jaquadro.minecraft.gardencore.GardenCore;
+import com.jaquadro.minecraft.gardencore.block.tile.TileEntityCompostBin;
+import com.jaquadro.minecraft.gardencore.client.particle.EntitySteamFX;
+import com.jaquadro.minecraft.gardencore.core.ClientProxy;
+import com.jaquadro.minecraft.gardencore.core.ModCreativeTabs;
+import com.jaquadro.minecraft.gardencore.core.handlers.GuiHandler;
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockContainer;
 import net.minecraft.block.material.Material;
@@ -13,15 +19,7 @@ import net.minecraft.util.IIcon;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 
-import com.jaquadro.minecraft.gardencore.GardenCore;
-import com.jaquadro.minecraft.gardencore.block.tile.TileEntityCompostBin;
-import com.jaquadro.minecraft.gardencore.client.particle.EntitySteamFX;
-import com.jaquadro.minecraft.gardencore.core.ClientProxy;
-import com.jaquadro.minecraft.gardencore.core.ModCreativeTabs;
-import com.jaquadro.minecraft.gardencore.core.handlers.GuiHandler;
-
-import cpw.mods.fml.relauncher.Side;
-import cpw.mods.fml.relauncher.SideOnly;
+import java.util.Random;
 
 public class BlockCompostBin extends BlockContainer {
 

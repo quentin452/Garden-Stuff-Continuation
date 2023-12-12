@@ -1,10 +1,9 @@
 package com.jaquadro.minecraft.gardencontainers.block.support;
 
-import net.minecraft.tileentity.TileEntity;
-import net.minecraft.world.IBlockAccess;
-
 import com.jaquadro.minecraft.gardencontainers.block.tile.TileEntityWindowBox;
 import com.jaquadro.minecraft.gardencore.block.support.BasicConnectionProfile;
+import net.minecraft.tileentity.TileEntity;
+import net.minecraft.world.IBlockAccess;
 
 public class WindowBoxConnectionProfile extends BasicConnectionProfile {
 

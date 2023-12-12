@@ -1,5 +1,10 @@
 package com.jaquadro.minecraft.gardencore.item;
 
+import com.jaquadro.minecraft.gardencore.GardenCore;
+import com.jaquadro.minecraft.gardencore.api.event.EnrichedSoilEvent;
+import com.jaquadro.minecraft.gardencore.config.ConfigManager;
+import com.jaquadro.minecraft.gardencore.core.ModCreativeTabs;
+import cpw.mods.fml.common.eventhandler.Event.Result;
 import net.minecraft.block.Block;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
@@ -7,13 +12,6 @@ import net.minecraft.item.ItemDye;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
 import net.minecraftforge.common.MinecraftForge;
-
-import com.jaquadro.minecraft.gardencore.GardenCore;
-import com.jaquadro.minecraft.gardencore.api.event.EnrichedSoilEvent;
-import com.jaquadro.minecraft.gardencore.config.ConfigManager;
-import com.jaquadro.minecraft.gardencore.core.ModCreativeTabs;
-
-import cpw.mods.fml.common.eventhandler.Event.Result;
 
 public class ItemCompost extends Item {
 

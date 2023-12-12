@@ -4,18 +4,17 @@ import codechicken.nei.NEIClientUtils;
 import codechicken.nei.NEIServerUtils;
 import codechicken.nei.PositionedStack;
 import codechicken.nei.recipe.TemplateRecipeHandler;
-import codechicken.nei.recipe.TemplateRecipeHandler.CachedRecipe;
-import codechicken.nei.recipe.TemplateRecipeHandler.RecipeTransferRect;
 import com.jaquadro.minecraft.gardenstuff.client.gui.GuiBloomeryFurnace;
 import com.jaquadro.minecraft.gardenstuff.core.ModItems;
-import java.awt.Rectangle;
+import net.minecraft.init.Blocks;
+import net.minecraft.init.Items;
+import net.minecraft.item.ItemStack;
+
+import java.awt.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
-import net.minecraft.init.Blocks;
-import net.minecraft.init.Items;
-import net.minecraft.item.ItemStack;
 
 public class BloomeryFurnaceRecipeHandler extends TemplateRecipeHandler {
    public static ArrayList afuels;

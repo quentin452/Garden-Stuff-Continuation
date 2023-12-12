@@ -2,14 +2,15 @@ package com.jaquadro.minecraft.gardentrees.config;
 
 import com.jaquadro.minecraft.gardencore.util.UniqueMetaIdentifier;
 import cpw.mods.fml.common.registry.GameRegistry;
-import java.io.File;
-import java.util.ArrayList;
-import java.util.List;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.config.Configuration;
 import net.minecraftforge.common.config.Property;
+
+import java.io.File;
+import java.util.ArrayList;
+import java.util.List;
 
 public class ConfigManager {
    private final Configuration config;

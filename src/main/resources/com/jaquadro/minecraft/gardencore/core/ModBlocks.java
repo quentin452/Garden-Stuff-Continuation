@@ -1,10 +1,6 @@
 package com.jaquadro.minecraft.gardencore.core;
 
-import com.jaquadro.minecraft.gardencore.block.BlockCompostBin;
-import com.jaquadro.minecraft.gardencore.block.BlockGardenFarmland;
-import com.jaquadro.minecraft.gardencore.block.BlockGardenProxy;
-import com.jaquadro.minecraft.gardencore.block.BlockGardenSoil;
-import com.jaquadro.minecraft.gardencore.block.BlockSmallFire;
+import com.jaquadro.minecraft.gardencore.block.*;
 import com.jaquadro.minecraft.gardencore.block.tile.TileEntityCompostBin;
 import com.jaquadro.minecraft.gardencore.block.tile.TileEntityGardenFarmland;
 import com.jaquadro.minecraft.gardencore.block.tile.TileEntityGardenSoil;

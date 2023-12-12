@@ -4,8 +4,6 @@ import com.jaquadro.minecraft.gardencore.api.WoodRegistry;
 import com.jaquadro.minecraft.gardencore.util.UniqueMetaIdentifier;
 import com.jaquadro.minecraft.gardentrees.block.tile.TileEntityWoodProxy;
 import com.jaquadro.minecraft.gardentrees.core.ModBlocks;
-import java.util.ArrayList;
-import java.util.List;
 import net.minecraft.block.Block;
 import net.minecraft.init.Items;
 import net.minecraft.inventory.InventoryCrafting;
@@ -13,6 +11,9 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.crafting.IRecipe;
 import net.minecraft.world.World;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class WoodPostRecipe implements IRecipe {
    public static final List axeList = new ArrayList();

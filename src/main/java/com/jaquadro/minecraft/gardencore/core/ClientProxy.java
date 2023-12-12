@@ -3,7 +3,6 @@ package com.jaquadro.minecraft.gardencore.core;
 import com.jaquadro.minecraft.gardencore.client.renderer.CompostBinRenderer;
 import com.jaquadro.minecraft.gardencore.client.renderer.GardenProxyRenderer;
 import com.jaquadro.minecraft.gardencore.client.renderer.SmallFireRenderer;
-
 import cpw.mods.fml.client.registry.ISimpleBlockRenderingHandler;
 import cpw.mods.fml.client.registry.RenderingRegistry;
 

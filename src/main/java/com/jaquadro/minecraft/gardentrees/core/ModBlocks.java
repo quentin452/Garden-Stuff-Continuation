@@ -1,26 +1,17 @@
 package com.jaquadro.minecraft.gardentrees.core;
 
-import net.minecraft.block.Block;
-
-import org.apache.logging.log4j.Level;
-
 import com.jaquadro.minecraft.gardencore.util.UniqueMetaIdentifier;
-import com.jaquadro.minecraft.gardentrees.block.BlockCandelilla;
-import com.jaquadro.minecraft.gardentrees.block.BlockFlowerLeaves;
-import com.jaquadro.minecraft.gardentrees.block.BlockGTSapling;
-import com.jaquadro.minecraft.gardentrees.block.BlockIvy;
-import com.jaquadro.minecraft.gardentrees.block.BlockStrangePlant;
-import com.jaquadro.minecraft.gardentrees.block.BlockThinLog;
-import com.jaquadro.minecraft.gardentrees.block.BlockThinLogFence;
+import com.jaquadro.minecraft.gardentrees.block.*;
 import com.jaquadro.minecraft.gardentrees.block.tile.TileEntityWoodProxy;
 import com.jaquadro.minecraft.gardentrees.item.ItemGTSapling;
 import com.jaquadro.minecraft.gardentrees.item.ItemIvy;
 import com.jaquadro.minecraft.gardentrees.item.ItemThinLog;
 import com.jaquadro.minecraft.gardentrees.item.ItemThinLogFence;
-
 import cpw.mods.fml.common.FMLLog;
 import cpw.mods.fml.common.registry.GameData;
 import cpw.mods.fml.common.registry.GameRegistry;
+import net.minecraft.block.Block;
+import org.apache.logging.log4j.Level;
 
 public class ModBlocks {
 

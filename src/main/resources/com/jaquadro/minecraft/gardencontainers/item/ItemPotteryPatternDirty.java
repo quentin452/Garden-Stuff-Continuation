@@ -6,7 +6,6 @@ import com.jaquadro.minecraft.gardencontainers.core.ModItems;
 import com.jaquadro.minecraft.gardencore.core.ModCreativeTabs;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
-import java.util.List;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockCauldron;
 import net.minecraft.entity.item.EntityItem;
@@ -15,6 +14,8 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.StatCollector;
 import net.minecraft.world.World;
+
+import java.util.List;
 
 public class ItemPotteryPatternDirty extends Item {
    public ItemPotteryPatternDirty(String unlocalizedName) {

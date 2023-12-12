@@ -1,14 +1,12 @@
 package com.jaquadro.minecraft.gardenstuff.client.gui;
 
+import com.jaquadro.minecraft.gardenstuff.block.tile.TileEntityBloomeryFurnace;
+import com.jaquadro.minecraft.gardenstuff.container.ContainerBloomeryFurnace;
 import net.minecraft.client.gui.inventory.GuiContainer;
 import net.minecraft.client.resources.I18n;
 import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.util.ResourceLocation;
-
 import org.lwjgl.opengl.GL11;
-
-import com.jaquadro.minecraft.gardenstuff.block.tile.TileEntityBloomeryFurnace;
-import com.jaquadro.minecraft.gardenstuff.container.ContainerBloomeryFurnace;
 
 public class GuiBloomeryFurnace extends GuiContainer {
 

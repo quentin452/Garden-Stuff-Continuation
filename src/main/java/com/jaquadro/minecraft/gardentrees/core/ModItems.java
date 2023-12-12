@@ -1,10 +1,8 @@
 package com.jaquadro.minecraft.gardentrees.core;
 
-import net.minecraft.item.Item;
-
 import com.jaquadro.minecraft.gardentrees.item.ItemSeeds;
-
 import cpw.mods.fml.common.registry.GameRegistry;
+import net.minecraft.item.Item;
 
 public class ModItems {
 

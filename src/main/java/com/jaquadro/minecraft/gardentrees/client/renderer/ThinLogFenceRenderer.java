@@ -1,17 +1,14 @@
 package com.jaquadro.minecraft.gardentrees.client.renderer;
 
+import com.jaquadro.minecraft.gardentrees.block.BlockThinLogFence;
+import com.jaquadro.minecraft.gardentrees.core.ClientProxy;
+import cpw.mods.fml.client.registry.ISimpleBlockRenderingHandler;
 import net.minecraft.block.Block;
 import net.minecraft.client.renderer.RenderBlocks;
 import net.minecraft.client.renderer.Tessellator;
 import net.minecraft.util.IIcon;
 import net.minecraft.world.IBlockAccess;
-
 import org.lwjgl.opengl.GL11;
-
-import com.jaquadro.minecraft.gardentrees.block.BlockThinLogFence;
-import com.jaquadro.minecraft.gardentrees.core.ClientProxy;
-
-import cpw.mods.fml.client.registry.ISimpleBlockRenderingHandler;
 
 public class ThinLogFenceRenderer implements ISimpleBlockRenderingHandler {
 

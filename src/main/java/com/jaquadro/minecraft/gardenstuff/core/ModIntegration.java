@@ -1,11 +1,6 @@
 package com.jaquadro.minecraft.gardenstuff.core;
 
-import com.jaquadro.minecraft.gardenstuff.integration.ColoredLightsIntegration;
-import com.jaquadro.minecraft.gardenstuff.integration.NEIIntegration;
-import com.jaquadro.minecraft.gardenstuff.integration.ThaumcraftIntegration;
-import com.jaquadro.minecraft.gardenstuff.integration.TwilightForestIntegration;
-import com.jaquadro.minecraft.gardenstuff.integration.VanillaIntegration;
-
+import com.jaquadro.minecraft.gardenstuff.integration.*;
 import cpw.mods.fml.common.Loader;
 
 public class ModIntegration {

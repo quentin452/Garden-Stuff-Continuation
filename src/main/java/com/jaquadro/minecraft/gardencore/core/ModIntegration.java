@@ -1,15 +1,7 @@
 package com.jaquadro.minecraft.gardencore.core;
 
 import com.jaquadro.minecraft.gardencommon.integration.IntegrationRegistry;
-import com.jaquadro.minecraft.gardencore.integration.ExtraBiomesXLIntegration;
-import com.jaquadro.minecraft.gardencore.integration.MineTweakerIntegration;
-import com.jaquadro.minecraft.gardencore.integration.NaturaIntegration;
-import com.jaquadro.minecraft.gardencore.integration.PlantMegaPackIntegration;
-import com.jaquadro.minecraft.gardencore.integration.ThaumcraftIntegration;
-import com.jaquadro.minecraft.gardencore.integration.TwilightForestIntegration;
-import com.jaquadro.minecraft.gardencore.integration.WeeeFlowersIntegration;
-import com.jaquadro.minecraft.gardencore.integration.WitcheryIntegration;
-
+import com.jaquadro.minecraft.gardencore.integration.*;
 import cpw.mods.fml.common.Loader;
 
 public class ModIntegration {

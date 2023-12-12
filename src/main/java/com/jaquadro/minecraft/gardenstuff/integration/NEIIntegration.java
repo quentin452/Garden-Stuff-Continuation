@@ -3,7 +3,6 @@ package com.jaquadro.minecraft.gardenstuff.integration;
 import com.jaquadro.minecraft.gardenstuff.GardenStuff;
 import com.jaquadro.minecraft.gardenstuff.core.ClientProxy;
 import com.jaquadro.minecraft.gardenstuff.integration.nei.NEIHelper;
-
 import cpw.mods.fml.common.Loader;
 
 public class NEIIntegration {

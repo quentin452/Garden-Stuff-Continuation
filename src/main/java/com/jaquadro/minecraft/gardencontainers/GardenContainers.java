@@ -1,10 +1,5 @@
 package com.jaquadro.minecraft.gardencontainers;
 
-import java.io.File;
-
-import net.minecraft.util.WeightedRandomChestContent;
-import net.minecraftforge.common.ChestGenHooks;
-
 import com.jaquadro.minecraft.gardencontainers.config.ConfigManager;
 import com.jaquadro.minecraft.gardencontainers.core.CommonProxy;
 import com.jaquadro.minecraft.gardencontainers.core.ModBlocks;
@@ -13,7 +8,6 @@ import com.jaquadro.minecraft.gardencontainers.core.ModRecipes;
 import com.jaquadro.minecraft.gardencontainers.core.handlers.GuiHandler;
 import com.jaquadro.minecraft.gardencontainers.core.handlers.VillagerTradeHandler;
 import com.jaquadro.minecraft.gardencore.api.GardenCoreAPI;
-
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.Mod.Instance;
@@ -22,6 +16,10 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.network.NetworkRegistry;
+import net.minecraft.util.WeightedRandomChestContent;
+import net.minecraftforge.common.ChestGenHooks;
+
+import java.io.File;
 
 @Mod(
     modid = "GardenContainers",

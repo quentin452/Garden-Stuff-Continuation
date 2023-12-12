@@ -1,10 +1,9 @@
 package com.jaquadro.minecraft.gardenstuff.integration.twilightforest;
 
+import com.jaquadro.minecraft.gardenstuff.integration.TwilightForestIntegration;
 import net.minecraft.entity.effect.EntityWeatherEffect;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.world.World;
-
-import com.jaquadro.minecraft.gardenstuff.integration.TwilightForestIntegration;
 
 public class EntityFireflyWrapper extends EntityWeatherEffect {
 

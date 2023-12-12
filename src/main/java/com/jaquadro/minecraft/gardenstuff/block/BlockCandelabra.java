@@ -1,8 +1,13 @@
 package com.jaquadro.minecraft.gardenstuff.block;
 
-import java.util.List;
-import java.util.Random;
-
+import com.jaquadro.minecraft.gardencore.api.block.IChain;
+import com.jaquadro.minecraft.gardencore.core.ModCreativeTabs;
+import com.jaquadro.minecraft.gardencore.util.RenderHelper;
+import com.jaquadro.minecraft.gardencore.util.RenderHelperState;
+import com.jaquadro.minecraft.gardenstuff.block.tile.TileEntityCandelabra;
+import com.jaquadro.minecraft.gardenstuff.core.ClientProxy;
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockContainer;
 import net.minecraft.block.material.Material;
@@ -20,15 +25,8 @@ import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 import net.minecraftforge.common.util.ForgeDirection;
 
-import com.jaquadro.minecraft.gardencore.api.block.IChain;
-import com.jaquadro.minecraft.gardencore.core.ModCreativeTabs;
-import com.jaquadro.minecraft.gardencore.util.RenderHelper;
-import com.jaquadro.minecraft.gardencore.util.RenderHelperState;
-import com.jaquadro.minecraft.gardenstuff.block.tile.TileEntityCandelabra;
-import com.jaquadro.minecraft.gardenstuff.core.ClientProxy;
-
-import cpw.mods.fml.relauncher.Side;
-import cpw.mods.fml.relauncher.SideOnly;
+import java.util.List;
+import java.util.Random;
 
 public class BlockCandelabra extends BlockContainer {
 

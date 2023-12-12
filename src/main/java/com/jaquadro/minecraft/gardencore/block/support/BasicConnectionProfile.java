@@ -1,11 +1,10 @@
 package com.jaquadro.minecraft.gardencore.block.support;
 
+import com.jaquadro.minecraft.gardencore.api.block.garden.IConnectionProfile;
+import com.jaquadro.minecraft.gardencore.block.tile.TileEntityGarden;
 import net.minecraft.block.Block;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.world.IBlockAccess;
-
-import com.jaquadro.minecraft.gardencore.api.block.garden.IConnectionProfile;
-import com.jaquadro.minecraft.gardencore.block.tile.TileEntityGarden;
 
 public class BasicConnectionProfile implements IConnectionProfile {
 

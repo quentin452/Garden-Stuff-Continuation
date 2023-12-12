@@ -1,16 +1,14 @@
 package com.jaquadro.minecraft.gardenstuff.integration.lantern;
 
-import java.util.Random;
-
+import com.jaquadro.minecraft.gardenapi.api.component.StandardLanternSource;
+import com.jaquadro.minecraft.gardenstuff.integration.TwilightForestIntegration;
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraft.world.World;
 
-import com.jaquadro.minecraft.gardenapi.api.component.StandardLanternSource;
-import com.jaquadro.minecraft.gardenstuff.integration.TwilightForestIntegration;
-
-import cpw.mods.fml.relauncher.Side;
-import cpw.mods.fml.relauncher.SideOnly;
+import java.util.Random;
 
 public class FireflyLanternSource extends StandardLanternSource {
 

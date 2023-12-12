@@ -1,13 +1,7 @@
 package com.jaquadro.minecraft.gardentrees.core;
 
 import com.jaquadro.minecraft.gardencore.util.UniqueMetaIdentifier;
-import com.jaquadro.minecraft.gardentrees.block.BlockCandelilla;
-import com.jaquadro.minecraft.gardentrees.block.BlockFlowerLeaves;
-import com.jaquadro.minecraft.gardentrees.block.BlockGTSapling;
-import com.jaquadro.minecraft.gardentrees.block.BlockIvy;
-import com.jaquadro.minecraft.gardentrees.block.BlockStrangePlant;
-import com.jaquadro.minecraft.gardentrees.block.BlockThinLog;
-import com.jaquadro.minecraft.gardentrees.block.BlockThinLogFence;
+import com.jaquadro.minecraft.gardentrees.block.*;
 import com.jaquadro.minecraft.gardentrees.block.tile.TileEntityWoodProxy;
 import com.jaquadro.minecraft.gardentrees.item.ItemGTSapling;
 import com.jaquadro.minecraft.gardentrees.item.ItemIvy;

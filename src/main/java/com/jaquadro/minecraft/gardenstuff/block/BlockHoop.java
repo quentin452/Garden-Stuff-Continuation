@@ -1,14 +1,13 @@
 package com.jaquadro.minecraft.gardenstuff.block;
 
-import net.minecraft.block.Block;
-import net.minecraft.block.material.Material;
-import net.minecraft.util.IIcon;
-import net.minecraft.util.Vec3;
-
 import com.jaquadro.minecraft.gardencore.api.block.IChainAttachable;
 import com.jaquadro.minecraft.gardencore.core.ModCreativeTabs;
 import com.jaquadro.minecraft.gardenstuff.core.ClientProxy;
 import com.jaquadro.minecraft.gardenstuff.core.ModBlocks;
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+import net.minecraft.util.IIcon;
+import net.minecraft.util.Vec3;
 
 public class BlockHoop extends Block implements IChainAttachable {
 

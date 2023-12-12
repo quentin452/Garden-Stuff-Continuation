@@ -1,14 +1,15 @@
 package com.jaquadro.minecraft.gardencore.inventory;
 
 import com.jaquadro.minecraft.gardencore.block.tile.TileEntityGarden;
-import java.util.ArrayList;
-import java.util.List;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.inventory.Container;
 import net.minecraft.inventory.IInventory;
 import net.minecraft.inventory.Slot;
 import net.minecraft.item.ItemStack;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class ContainerGarden extends Container {
    private static final int InventoryX = 8;

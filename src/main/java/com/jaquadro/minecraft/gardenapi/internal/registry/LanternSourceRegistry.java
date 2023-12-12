@@ -1,15 +1,13 @@
 package com.jaquadro.minecraft.gardenapi.internal.registry;
 
+import com.jaquadro.minecraft.gardenapi.api.component.ILanternSource;
+import com.jaquadro.minecraft.gardenapi.api.component.ILanternSourceRegistry;
+import cpw.mods.fml.common.FMLLog;
+import org.apache.logging.log4j.Level;
+
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
-
-import org.apache.logging.log4j.Level;
-
-import com.jaquadro.minecraft.gardenapi.api.component.ILanternSource;
-import com.jaquadro.minecraft.gardenapi.api.component.ILanternSourceRegistry;
-
-import cpw.mods.fml.common.FMLLog;
 
 public class LanternSourceRegistry implements ILanternSourceRegistry {
 

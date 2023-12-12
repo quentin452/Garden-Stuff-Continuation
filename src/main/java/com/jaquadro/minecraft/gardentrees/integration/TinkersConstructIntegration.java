@@ -1,11 +1,9 @@
 package com.jaquadro.minecraft.gardentrees.integration;
 
-import net.minecraft.item.Item;
-
 import com.jaquadro.minecraft.gardentrees.core.recipe.WoodPostRecipe;
-
 import cpw.mods.fml.common.Loader;
 import cpw.mods.fml.common.registry.GameRegistry;
+import net.minecraft.item.Item;
 
 public class TinkersConstructIntegration {
 

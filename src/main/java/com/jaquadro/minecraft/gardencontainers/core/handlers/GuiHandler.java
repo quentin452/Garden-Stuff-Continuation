@@ -1,14 +1,12 @@
 package com.jaquadro.minecraft.gardencontainers.core.handlers;
 
-import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.tileentity.TileEntity;
-import net.minecraft.world.World;
-
 import com.jaquadro.minecraft.gardencontainers.block.tile.TileEntityPotteryTable;
 import com.jaquadro.minecraft.gardencontainers.client.gui.GuiPotteryTable;
 import com.jaquadro.minecraft.gardencontainers.inventory.ContainerPotteryTable;
-
 import cpw.mods.fml.common.network.IGuiHandler;
+import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.tileentity.TileEntity;
+import net.minecraft.world.World;
 
 public class GuiHandler implements IGuiHandler {
 

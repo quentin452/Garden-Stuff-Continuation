@@ -1,13 +1,12 @@
 package com.jaquadro.minecraft.gardencore.api;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import net.minecraft.block.Block;
-
 import com.jaquadro.minecraft.gardencore.core.ModBlocks;
 import com.jaquadro.minecraft.gardencore.util.UniqueMetaIdentifier;
 import com.jaquadro.minecraft.gardencore.util.UniqueMetaSet;
+import net.minecraft.block.Block;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public final class GardenCoreAPI {
 

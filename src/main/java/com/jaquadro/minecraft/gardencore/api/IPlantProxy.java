@@ -1,9 +1,8 @@
 package com.jaquadro.minecraft.gardencore.api;
 
+import com.jaquadro.minecraft.gardencore.block.tile.TileEntityGarden;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
-
-import com.jaquadro.minecraft.gardencore.block.tile.TileEntityGarden;
 
 public interface IPlantProxy {
 

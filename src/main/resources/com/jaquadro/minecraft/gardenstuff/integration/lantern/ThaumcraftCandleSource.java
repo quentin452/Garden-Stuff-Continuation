@@ -4,7 +4,6 @@ import com.jaquadro.minecraft.gardenapi.api.component.StandardLanternSource;
 import com.jaquadro.minecraft.gardencore.util.RenderHelper;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
-import java.util.Random;
 import net.minecraft.block.Block;
 import net.minecraft.client.renderer.RenderBlocks;
 import net.minecraft.init.Blocks;
@@ -12,6 +11,8 @@ import net.minecraft.item.Item;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 import net.minecraftforge.client.IItemRenderer.ItemRenderType;
+
+import java.util.Random;
 
 public class ThaumcraftCandleSource extends StandardLanternSource {
    private Block blockCandle;

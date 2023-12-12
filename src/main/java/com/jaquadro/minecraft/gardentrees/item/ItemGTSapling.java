@@ -1,9 +1,8 @@
 package com.jaquadro.minecraft.gardentrees.item;
 
+import com.jaquadro.minecraft.gardentrees.block.BlockGTSapling;
 import net.minecraft.block.Block;
 import net.minecraft.item.ItemMultiTexture;
-
-import com.jaquadro.minecraft.gardentrees.block.BlockGTSapling;
 
 public class ItemGTSapling extends ItemMultiTexture {
 

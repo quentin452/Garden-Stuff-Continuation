@@ -1,19 +1,16 @@
 package com.jaquadro.minecraft.gardencore.client.renderer;
 
+import com.jaquadro.minecraft.gardencore.block.BlockCompostBin;
+import com.jaquadro.minecraft.gardencore.block.tile.TileEntityCompostBin;
+import com.jaquadro.minecraft.gardencore.client.renderer.support.ModularBoxRenderer;
+import com.jaquadro.minecraft.gardencore.core.ModBlocks;
+import cpw.mods.fml.client.registry.ISimpleBlockRenderingHandler;
 import net.minecraft.block.Block;
 import net.minecraft.client.renderer.RenderBlocks;
 import net.minecraft.client.renderer.Tessellator;
 import net.minecraft.init.Blocks;
 import net.minecraft.world.IBlockAccess;
-
 import org.lwjgl.opengl.GL11;
-
-import com.jaquadro.minecraft.gardencore.block.BlockCompostBin;
-import com.jaquadro.minecraft.gardencore.block.tile.TileEntityCompostBin;
-import com.jaquadro.minecraft.gardencore.client.renderer.support.ModularBoxRenderer;
-import com.jaquadro.minecraft.gardencore.core.ModBlocks;
-
-import cpw.mods.fml.client.registry.ISimpleBlockRenderingHandler;
 
 public class CompostBinRenderer implements ISimpleBlockRenderingHandler {
 

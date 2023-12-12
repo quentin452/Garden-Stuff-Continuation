@@ -1,5 +1,6 @@
 package com.jaquadro.minecraft.gardentrees.item;
 
+import com.jaquadro.minecraft.gardentrees.core.ModCreativeTabs;
 import net.minecraft.block.Block;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
@@ -9,8 +10,6 @@ import net.minecraft.world.World;
 import net.minecraftforge.common.EnumPlantType;
 import net.minecraftforge.common.IPlantable;
 import net.minecraftforge.common.util.ForgeDirection;
-
-import com.jaquadro.minecraft.gardentrees.core.ModCreativeTabs;
 
 public class ItemSeeds extends Item implements IPlantable {
 

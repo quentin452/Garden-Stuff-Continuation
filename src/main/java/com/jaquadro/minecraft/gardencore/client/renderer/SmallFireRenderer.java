@@ -1,15 +1,13 @@
 package com.jaquadro.minecraft.gardencore.client.renderer;
 
+import com.jaquadro.minecraft.gardencore.block.BlockSmallFire;
+import com.jaquadro.minecraft.gardencore.core.ClientProxy;
+import cpw.mods.fml.client.registry.ISimpleBlockRenderingHandler;
 import net.minecraft.block.Block;
 import net.minecraft.client.renderer.RenderBlocks;
 import net.minecraft.client.renderer.Tessellator;
 import net.minecraft.util.IIcon;
 import net.minecraft.world.IBlockAccess;
-
-import com.jaquadro.minecraft.gardencore.block.BlockSmallFire;
-import com.jaquadro.minecraft.gardencore.core.ClientProxy;
-
-import cpw.mods.fml.client.registry.ISimpleBlockRenderingHandler;
 
 public class SmallFireRenderer implements ISimpleBlockRenderingHandler {
 

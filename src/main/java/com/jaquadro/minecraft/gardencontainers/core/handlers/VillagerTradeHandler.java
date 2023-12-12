@@ -1,18 +1,16 @@
 package com.jaquadro.minecraft.gardencontainers.core.handlers;
 
-import java.util.Random;
-
+import com.jaquadro.minecraft.gardencontainers.GardenContainers;
+import com.jaquadro.minecraft.gardencontainers.core.ModItems;
+import cpw.mods.fml.common.registry.VillagerRegistry;
+import cpw.mods.fml.common.registry.VillagerRegistry.IVillageTradeHandler;
 import net.minecraft.entity.passive.EntityVillager;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraft.village.MerchantRecipe;
 import net.minecraft.village.MerchantRecipeList;
 
-import com.jaquadro.minecraft.gardencontainers.GardenContainers;
-import com.jaquadro.minecraft.gardencontainers.core.ModItems;
-
-import cpw.mods.fml.common.registry.VillagerRegistry;
-import cpw.mods.fml.common.registry.VillagerRegistry.IVillageTradeHandler;
+import java.util.Random;
 
 public class VillagerTradeHandler implements IVillageTradeHandler {
 

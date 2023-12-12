@@ -1,12 +1,10 @@
 package com.jaquadro.minecraft.gardenstuff.block;
 
+import com.jaquadro.minecraft.gardencore.core.ModCreativeTabs;
+import cpw.mods.fml.common.IFuelHandler;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.item.ItemStack;
-
-import com.jaquadro.minecraft.gardencore.core.ModCreativeTabs;
-
-import cpw.mods.fml.common.IFuelHandler;
 
 public class BlockStoneType extends Block implements IFuelHandler {
 

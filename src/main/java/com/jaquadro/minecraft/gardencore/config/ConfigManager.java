@@ -1,9 +1,9 @@
 package com.jaquadro.minecraft.gardencore.config;
 
-import java.io.File;
-
 import net.minecraftforge.common.config.Configuration;
 import net.minecraftforge.common.config.Property;
+
+import java.io.File;
 
 public class ConfigManager {
 

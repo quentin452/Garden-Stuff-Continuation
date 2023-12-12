@@ -1,8 +1,9 @@
 package com.jaquadro.minecraft.gardentrees.block;
 
-import java.util.ArrayList;
-import java.util.Random;
-
+import com.jaquadro.minecraft.gardentrees.core.ClientProxy;
+import com.jaquadro.minecraft.gardentrees.core.ModCreativeTabs;
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IIconRegister;
@@ -18,11 +19,8 @@ import net.minecraft.world.World;
 import net.minecraftforge.common.IShearable;
 import net.minecraftforge.common.util.ForgeDirection;
 
-import com.jaquadro.minecraft.gardentrees.core.ClientProxy;
-import com.jaquadro.minecraft.gardentrees.core.ModCreativeTabs;
-
-import cpw.mods.fml.relauncher.Side;
-import cpw.mods.fml.relauncher.SideOnly;
+import java.util.ArrayList;
+import java.util.Random;
 
 public class BlockIvy extends Block implements IShearable {
 

@@ -1,9 +1,10 @@
 package com.jaquadro.minecraft.gardencore.core;
 
 import com.jaquadro.minecraft.gardencore.util.BindingStack;
+import net.minecraft.world.World;
+
 import java.util.HashMap;
 import java.util.Map;
-import net.minecraft.world.World;
 
 public class CommonProxy {
    private Map bindingStacksClient = new HashMap();

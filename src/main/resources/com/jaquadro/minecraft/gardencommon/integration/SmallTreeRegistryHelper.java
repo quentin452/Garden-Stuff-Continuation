@@ -4,10 +4,11 @@ import com.jaquadro.minecraft.gardencore.api.SaplingRegistry;
 import com.jaquadro.minecraft.gardencore.util.UniqueMetaIdentifier;
 import com.jaquadro.minecraft.gardentrees.world.gen.OrnamentalTreeFactory;
 import com.jaquadro.minecraft.gardentrees.world.gen.OrnamentalTreeRegistry;
+import net.minecraft.item.Item;
+
 import java.util.Iterator;
 import java.util.Map;
 import java.util.Map.Entry;
-import net.minecraft.item.Item;
 
 public class SmallTreeRegistryHelper {
    public static void registerSaplings(Map banks) {

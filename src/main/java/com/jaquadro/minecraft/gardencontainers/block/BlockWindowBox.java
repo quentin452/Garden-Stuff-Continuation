@@ -1,7 +1,16 @@
 package com.jaquadro.minecraft.gardencontainers.block;
 
-import java.util.List;
-
+import com.jaquadro.minecraft.gardencontainers.block.support.WindowBoxConnectionProfile;
+import com.jaquadro.minecraft.gardencontainers.block.tile.TileEntityWindowBox;
+import com.jaquadro.minecraft.gardencontainers.core.ClientProxy;
+import com.jaquadro.minecraft.gardencore.api.plant.PlantItem;
+import com.jaquadro.minecraft.gardencore.api.plant.PlantSize;
+import com.jaquadro.minecraft.gardencore.api.plant.PlantType;
+import com.jaquadro.minecraft.gardencore.block.BlockGarden;
+import com.jaquadro.minecraft.gardencore.block.support.BasicSlotProfile;
+import com.jaquadro.minecraft.gardencore.block.support.Slot5Profile;
+import com.jaquadro.minecraft.gardencore.block.support.SlotShare0Profile;
+import com.jaquadro.minecraft.gardencore.core.ModCreativeTabs;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IIconRegister;
@@ -19,17 +28,7 @@ import net.minecraft.util.MathHelper;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 
-import com.jaquadro.minecraft.gardencontainers.block.support.WindowBoxConnectionProfile;
-import com.jaquadro.minecraft.gardencontainers.block.tile.TileEntityWindowBox;
-import com.jaquadro.minecraft.gardencontainers.core.ClientProxy;
-import com.jaquadro.minecraft.gardencore.api.plant.PlantItem;
-import com.jaquadro.minecraft.gardencore.api.plant.PlantSize;
-import com.jaquadro.minecraft.gardencore.api.plant.PlantType;
-import com.jaquadro.minecraft.gardencore.block.BlockGarden;
-import com.jaquadro.minecraft.gardencore.block.support.BasicSlotProfile;
-import com.jaquadro.minecraft.gardencore.block.support.Slot5Profile;
-import com.jaquadro.minecraft.gardencore.block.support.SlotShare0Profile;
-import com.jaquadro.minecraft.gardencore.core.ModCreativeTabs;
+import java.util.List;
 
 public class BlockWindowBox extends BlockGarden {
 

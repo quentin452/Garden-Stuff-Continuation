@@ -1,19 +1,10 @@
 package com.jaquadro.minecraft.gardentrees;
 
-import java.io.File;
-
-import net.minecraftforge.common.MinecraftForge;
-
 import com.jaquadro.minecraft.gardentrees.config.ConfigManager;
-import com.jaquadro.minecraft.gardentrees.core.CommonProxy;
-import com.jaquadro.minecraft.gardentrees.core.ModBlocks;
-import com.jaquadro.minecraft.gardentrees.core.ModIntegration;
-import com.jaquadro.minecraft.gardentrees.core.ModItems;
-import com.jaquadro.minecraft.gardentrees.core.ModRecipes;
+import com.jaquadro.minecraft.gardentrees.core.*;
 import com.jaquadro.minecraft.gardentrees.core.handlers.ForgeEventHandler;
 import com.jaquadro.minecraft.gardentrees.core.handlers.FuelHandler;
 import com.jaquadro.minecraft.gardentrees.world.gen.feature.WorldGenCandelilla;
-
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
@@ -23,6 +14,9 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.registry.GameRegistry;
+import net.minecraftforge.common.MinecraftForge;
+
+import java.io.File;
 
 @Mod(modid = "GardenTrees", name = "Garden Trees", version = "1.7.10-1.7.0", dependencies = "required-after:GardenCore")
 public class GardenTrees {

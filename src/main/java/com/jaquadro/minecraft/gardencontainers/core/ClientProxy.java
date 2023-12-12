@@ -4,7 +4,6 @@ import com.jaquadro.minecraft.gardencontainers.client.renderer.DecorativePotRend
 import com.jaquadro.minecraft.gardencontainers.client.renderer.LargePotRenderer;
 import com.jaquadro.minecraft.gardencontainers.client.renderer.MediumPotRenderer;
 import com.jaquadro.minecraft.gardencontainers.client.renderer.WindowBoxRenderer;
-
 import cpw.mods.fml.client.registry.RenderingRegistry;
 
 public class ClientProxy extends CommonProxy {

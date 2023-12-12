@@ -1,18 +1,16 @@
 package com.jaquadro.minecraft.gardentrees.core.handlers;
 
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemStack;
-import net.minecraft.world.gen.feature.WorldGenerator;
-
 import com.jaquadro.minecraft.gardencore.api.SaplingRegistry;
 import com.jaquadro.minecraft.gardencore.api.event.EnrichedSoilEvent;
 import com.jaquadro.minecraft.gardentrees.GardenTrees;
 import com.jaquadro.minecraft.gardentrees.core.recipe.WoodPostRecipe;
 import com.jaquadro.minecraft.gardentrees.item.ItemThinLog;
-
 import cpw.mods.fml.common.eventhandler.Event.Result;
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import cpw.mods.fml.common.gameevent.PlayerEvent.ItemCraftedEvent;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import net.minecraft.world.gen.feature.WorldGenerator;
 
 public class ForgeEventHandler {
 

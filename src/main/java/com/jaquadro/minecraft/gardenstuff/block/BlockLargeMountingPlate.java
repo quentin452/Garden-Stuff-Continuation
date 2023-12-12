@@ -1,9 +1,8 @@
 package com.jaquadro.minecraft.gardenstuff.block;
 
+import com.jaquadro.minecraft.gardencore.core.ModCreativeTabs;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
-
-import com.jaquadro.minecraft.gardencore.core.ModCreativeTabs;
 
 public class BlockLargeMountingPlate extends Block {
 

@@ -1,22 +1,15 @@
 package com.jaquadro.minecraft.gardencore.core;
 
-import net.minecraft.block.Block;
-
-import org.apache.logging.log4j.Level;
-
-import com.jaquadro.minecraft.gardencore.block.BlockCompostBin;
-import com.jaquadro.minecraft.gardencore.block.BlockGardenFarmland;
-import com.jaquadro.minecraft.gardencore.block.BlockGardenProxy;
-import com.jaquadro.minecraft.gardencore.block.BlockGardenSoil;
-import com.jaquadro.minecraft.gardencore.block.BlockSmallFire;
+import com.jaquadro.minecraft.gardencore.block.*;
 import com.jaquadro.minecraft.gardencore.block.tile.TileEntityCompostBin;
 import com.jaquadro.minecraft.gardencore.block.tile.TileEntityGardenFarmland;
 import com.jaquadro.minecraft.gardencore.block.tile.TileEntityGardenSoil;
 import com.jaquadro.minecraft.gardencore.util.UniqueMetaIdentifier;
-
 import cpw.mods.fml.common.FMLLog;
 import cpw.mods.fml.common.registry.GameData;
 import cpw.mods.fml.common.registry.GameRegistry;
+import net.minecraft.block.Block;
+import org.apache.logging.log4j.Level;
 
 public class ModBlocks {
 

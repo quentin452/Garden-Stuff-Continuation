@@ -1,10 +1,9 @@
 package com.jaquadro.minecraft.gardencore.client.renderer.support;
 
+import com.jaquadro.minecraft.gardencore.util.RenderHelper;
 import net.minecraft.block.Block;
 import net.minecraft.util.IIcon;
 import net.minecraft.world.IBlockAccess;
-
-import com.jaquadro.minecraft.gardencore.util.RenderHelper;
 
 public class ModularBoxRenderer {
 

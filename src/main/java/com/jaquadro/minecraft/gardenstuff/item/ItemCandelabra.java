@@ -1,13 +1,12 @@
 package com.jaquadro.minecraft.gardenstuff.item;
 
+import com.jaquadro.minecraft.gardenstuff.block.tile.TileEntityCandelabra;
 import net.minecraft.block.Block;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.MathHelper;
 import net.minecraft.world.World;
-
-import com.jaquadro.minecraft.gardenstuff.block.tile.TileEntityCandelabra;
 
 public class ItemCandelabra extends ItemBlock {
 

@@ -1,7 +1,6 @@
 package com.jaquadro.minecraft.gardencore.util;
 
 import net.minecraft.world.World;
-
 import scala.Array;
 
 public class BindingStack {

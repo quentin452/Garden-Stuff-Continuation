@@ -1,5 +1,11 @@
 package com.jaquadro.minecraft.gardencontainers.client.renderer;
 
+import com.jaquadro.minecraft.gardencontainers.block.BlockDecorativePot;
+import com.jaquadro.minecraft.gardencontainers.block.tile.TileEntityDecorativePot;
+import com.jaquadro.minecraft.gardencontainers.core.ClientProxy;
+import com.jaquadro.minecraft.gardencore.client.renderer.support.ModularBoxRenderer;
+import com.jaquadro.minecraft.gardencore.util.RenderHelper;
+import cpw.mods.fml.client.registry.ISimpleBlockRenderingHandler;
 import net.minecraft.block.Block;
 import net.minecraft.client.renderer.RenderBlocks;
 import net.minecraft.client.renderer.Tessellator;
@@ -9,16 +15,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.IIcon;
 import net.minecraft.world.ColorizerGrass;
 import net.minecraft.world.IBlockAccess;
-
 import org.lwjgl.opengl.GL11;
-
-import com.jaquadro.minecraft.gardencontainers.block.BlockDecorativePot;
-import com.jaquadro.minecraft.gardencontainers.block.tile.TileEntityDecorativePot;
-import com.jaquadro.minecraft.gardencontainers.core.ClientProxy;
-import com.jaquadro.minecraft.gardencore.client.renderer.support.ModularBoxRenderer;
-import com.jaquadro.minecraft.gardencore.util.RenderHelper;
-
-import cpw.mods.fml.client.registry.ISimpleBlockRenderingHandler;
 
 public class DecorativePotRenderer implements ISimpleBlockRenderingHandler {
 

@@ -12,8 +12,6 @@ import com.jaquadro.minecraft.gardencore.block.support.BasicSlotProfile;
 import com.jaquadro.minecraft.gardencore.block.support.Slot2Profile;
 import com.jaquadro.minecraft.gardencore.block.support.SlotShare0Profile;
 import com.jaquadro.minecraft.gardencore.core.ModCreativeTabs;
-import java.util.ArrayList;
-import java.util.List;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IIconRegister;
@@ -26,6 +24,9 @@ import net.minecraft.util.AxisAlignedBB;
 import net.minecraft.util.Vec3;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public abstract class BlockMediumPot extends BlockGardenContainer implements IChainAttachable {
    private static final Vec3[] chainAttachPoints = new Vec3[]{Vec3.createVectorHelper(0.16125D, 0.75D, 0.15625D), Vec3.createVectorHelper(0.15625D, 0.75D, 0.83875D), Vec3.createVectorHelper(0.84375D, 0.75D, 0.16125D), Vec3.createVectorHelper(0.83875D, 0.75D, 0.84375D)};

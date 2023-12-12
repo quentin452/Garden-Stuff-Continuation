@@ -1,17 +1,16 @@
 package com.jaquadro.minecraft.gardencore.block.support;
 
-import java.util.ArrayList;
-import java.util.List;
-
+import com.jaquadro.minecraft.gardencore.api.block.garden.ISlotProfile;
+import com.jaquadro.minecraft.gardencore.api.plant.PlantItem;
+import com.jaquadro.minecraft.gardencore.api.plant.PlantSize;
+import com.jaquadro.minecraft.gardencore.api.plant.PlantType;
 import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.AxisAlignedBB;
 import net.minecraft.world.IBlockAccess;
 
-import com.jaquadro.minecraft.gardencore.api.block.garden.ISlotProfile;
-import com.jaquadro.minecraft.gardencore.api.plant.PlantItem;
-import com.jaquadro.minecraft.gardencore.api.plant.PlantSize;
-import com.jaquadro.minecraft.gardencore.api.plant.PlantType;
+import java.util.ArrayList;
+import java.util.List;
 
 public class BasicSlotProfile implements ISlotProfile {
 

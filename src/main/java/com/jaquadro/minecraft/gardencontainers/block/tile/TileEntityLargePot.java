@@ -1,9 +1,8 @@
 package com.jaquadro.minecraft.gardencontainers.block.tile;
 
-import net.minecraft.nbt.NBTTagCompound;
-
 import com.jaquadro.minecraft.gardencontainers.core.ModBlocks;
 import com.jaquadro.minecraft.gardencore.block.tile.TileEntityGarden;
+import net.minecraft.nbt.NBTTagCompound;
 
 public class TileEntityLargePot extends TileEntityGarden {
 

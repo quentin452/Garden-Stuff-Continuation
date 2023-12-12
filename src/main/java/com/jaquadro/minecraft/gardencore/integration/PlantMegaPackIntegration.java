@@ -1,9 +1,5 @@
 package com.jaquadro.minecraft.gardencore.integration;
 
-import net.minecraft.block.Block;
-import net.minecraft.item.ItemStack;
-import net.minecraft.world.World;
-
 import com.jaquadro.minecraft.gardencore.api.GardenCoreAPI;
 import com.jaquadro.minecraft.gardencore.api.IBonemealHandler;
 import com.jaquadro.minecraft.gardencore.api.PlantRegistry;
@@ -13,8 +9,10 @@ import com.jaquadro.minecraft.gardencore.api.plant.PlantSize;
 import com.jaquadro.minecraft.gardencore.api.plant.PlantType;
 import com.jaquadro.minecraft.gardencore.block.BlockGarden;
 import com.jaquadro.minecraft.gardencore.block.tile.TileEntityGarden;
-
 import cpw.mods.fml.common.Loader;
+import net.minecraft.block.Block;
+import net.minecraft.item.ItemStack;
+import net.minecraft.world.World;
 import plantmegapack.bin.PMPRenderers;
 import plantmegapack.block.PMPBlockPlant;
 import plantmegapack.common.PMPPlantGrowthType;

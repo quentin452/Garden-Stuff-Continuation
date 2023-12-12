@@ -3,9 +3,10 @@ package com.jaquadro.minecraft.gardencore.api;
 import com.jaquadro.minecraft.gardencore.core.ModBlocks;
 import com.jaquadro.minecraft.gardencore.util.UniqueMetaIdentifier;
 import com.jaquadro.minecraft.gardencore.util.UniqueMetaRegistry;
-import java.util.Set;
 import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;
+
+import java.util.Set;
 
 public final class WoodRegistry {
    private final UniqueMetaRegistry registry = new UniqueMetaRegistry();

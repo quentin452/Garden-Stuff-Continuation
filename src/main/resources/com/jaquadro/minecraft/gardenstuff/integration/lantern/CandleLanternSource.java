@@ -8,11 +8,12 @@ import com.jaquadro.minecraft.gardenstuff.core.ModBlocks;
 import com.jaquadro.minecraft.gardenstuff.core.ModItems;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
-import java.util.Random;
 import net.minecraft.client.renderer.RenderBlocks;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 import net.minecraftforge.client.IItemRenderer.ItemRenderType;
+
+import java.util.Random;
 
 public class CandleLanternSource extends StandardLanternSource {
    private ModularBoxRenderer boxrender = new ModularBoxRenderer();

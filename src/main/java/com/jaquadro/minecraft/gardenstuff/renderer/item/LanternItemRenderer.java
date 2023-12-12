@@ -1,5 +1,10 @@
 package com.jaquadro.minecraft.gardenstuff.renderer.item;
 
+import com.jaquadro.minecraft.gardenapi.api.component.ILanternSource;
+import com.jaquadro.minecraft.gardenapi.internal.Api;
+import com.jaquadro.minecraft.gardencore.util.RenderHelper;
+import com.jaquadro.minecraft.gardencore.util.RenderHelperState;
+import com.jaquadro.minecraft.gardenstuff.block.BlockLantern;
 import net.minecraft.block.Block;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.RenderBlocks;
@@ -9,16 +14,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.IIcon;
 import net.minecraft.world.IBlockAccess;
 import net.minecraftforge.client.IItemRenderer;
-import net.minecraftforge.client.IItemRenderer.ItemRenderType;
-import net.minecraftforge.client.IItemRenderer.ItemRendererHelper;
-
 import org.lwjgl.opengl.GL11;
-
-import com.jaquadro.minecraft.gardenapi.api.component.ILanternSource;
-import com.jaquadro.minecraft.gardenapi.internal.Api;
-import com.jaquadro.minecraft.gardencore.util.RenderHelper;
-import com.jaquadro.minecraft.gardencore.util.RenderHelperState;
-import com.jaquadro.minecraft.gardenstuff.block.BlockLantern;
 
 public class LanternItemRenderer implements IItemRenderer {
 

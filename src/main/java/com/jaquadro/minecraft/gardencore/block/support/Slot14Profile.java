@@ -1,12 +1,11 @@
 package com.jaquadro.minecraft.gardencore.block.support;
 
-import net.minecraft.entity.player.InventoryPlayer;
-import net.minecraft.tileentity.TileEntity;
-import net.minecraft.world.IBlockAccess;
-
 import com.jaquadro.minecraft.gardencore.block.tile.TileEntityGarden;
 import com.jaquadro.minecraft.gardencore.client.gui.GuiGardenLayout;
 import com.jaquadro.minecraft.gardencore.inventory.ContainerGarden;
+import net.minecraft.entity.player.InventoryPlayer;
+import net.minecraft.tileentity.TileEntity;
+import net.minecraft.world.IBlockAccess;
 
 public class Slot14Profile extends BasicSlotProfile {
 

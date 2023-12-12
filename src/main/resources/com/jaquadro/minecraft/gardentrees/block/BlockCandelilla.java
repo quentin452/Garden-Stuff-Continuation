@@ -4,7 +4,6 @@ import com.jaquadro.minecraft.gardentrees.core.ModCreativeTabs;
 import com.jaquadro.minecraft.gardentrees.core.ModItems;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
-import java.util.ArrayList;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockBush;
 import net.minecraft.block.BlockCrops;
@@ -18,6 +17,8 @@ import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 import net.minecraftforge.common.EnumPlantType;
 import net.minecraftforge.common.IShearable;
+
+import java.util.ArrayList;
 
 public class BlockCandelilla extends BlockCrops implements IShearable {
    @SideOnly(Side.CLIENT)

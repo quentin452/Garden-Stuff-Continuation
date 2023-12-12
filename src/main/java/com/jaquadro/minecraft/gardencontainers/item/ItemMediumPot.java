@@ -1,10 +1,9 @@
 package com.jaquadro.minecraft.gardencontainers.item;
 
+import com.jaquadro.minecraft.gardencontainers.block.BlockMediumPot;
 import net.minecraft.block.Block;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.item.ItemMultiTexture;
-
-import com.jaquadro.minecraft.gardencontainers.block.BlockMediumPot;
 
 public class ItemMediumPot extends ItemMultiTexture {
 

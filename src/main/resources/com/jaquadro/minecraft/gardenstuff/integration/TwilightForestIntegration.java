@@ -12,11 +12,12 @@ import cpw.mods.fml.common.Loader;
 import cpw.mods.fml.common.registry.GameRegistry;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
-import java.lang.reflect.Constructor;
-import java.util.Random;
 import net.minecraft.block.Block;
 import net.minecraft.entity.effect.EntityWeatherEffect;
 import net.minecraft.world.World;
+
+import java.lang.reflect.Constructor;
+import java.util.Random;
 
 public class TwilightForestIntegration {
    public static final String MOD_ID = "TwilightForest";

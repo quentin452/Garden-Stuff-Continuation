@@ -1,10 +1,9 @@
 package com.jaquadro.minecraft.gardencore.block.support;
 
-import net.minecraft.util.AxisAlignedBB;
-import net.minecraft.world.IBlockAccess;
-
 import com.jaquadro.minecraft.gardencore.api.block.IGardenBlock;
 import com.jaquadro.minecraft.gardencore.api.block.garden.IConnectionProfile;
+import net.minecraft.util.AxisAlignedBB;
+import net.minecraft.world.IBlockAccess;
 
 public class Slot14ProfileBounded extends Slot14Profile {
 

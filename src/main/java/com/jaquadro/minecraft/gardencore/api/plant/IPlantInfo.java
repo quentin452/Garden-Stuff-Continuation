@@ -1,8 +1,7 @@
 package com.jaquadro.minecraft.gardencore.api.plant;
 
-import net.minecraft.block.Block;
-
 import com.jaquadro.minecraft.gardencore.api.IPlantMetaResolver;
+import net.minecraft.block.Block;
 
 public interface IPlantInfo extends IPlantMetaResolver {
 

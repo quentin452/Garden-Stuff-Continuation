@@ -1,8 +1,7 @@
 package com.jaquadro.minecraft.gardencore.block.support;
 
-import net.minecraft.world.IBlockAccess;
-
 import com.jaquadro.minecraft.gardencore.block.tile.TileEntityGarden;
+import net.minecraft.world.IBlockAccess;
 
 public class ContainerConnectionProfile extends BasicConnectionProfile {
 

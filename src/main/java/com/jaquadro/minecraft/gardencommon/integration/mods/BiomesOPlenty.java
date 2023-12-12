@@ -1,8 +1,14 @@
 package com.jaquadro.minecraft.gardencommon.integration.mods;
 
-import java.util.HashMap;
-import java.util.Map;
-
+import com.jaquadro.minecraft.gardencommon.integration.IntegrationModule;
+import com.jaquadro.minecraft.gardencommon.integration.SmallTreeRegistryHelper;
+import com.jaquadro.minecraft.gardencore.api.*;
+import com.jaquadro.minecraft.gardencore.api.plant.PlantSize;
+import com.jaquadro.minecraft.gardencore.api.plant.PlantType;
+import com.jaquadro.minecraft.gardencore.api.plant.SimplePlantInfo;
+import com.jaquadro.minecraft.gardencore.client.renderer.plant.CrossedSquaresPlantRenderer;
+import cpw.mods.fml.common.registry.GameRegistry;
+import cpw.mods.fml.common.registry.GameRegistry.UniqueIdentifier;
 import net.minecraft.block.Block;
 import net.minecraft.client.renderer.RenderBlocks;
 import net.minecraft.client.renderer.Tessellator;
@@ -12,20 +18,8 @@ import net.minecraft.util.AxisAlignedBB;
 import net.minecraft.util.IIcon;
 import net.minecraft.world.IBlockAccess;
 
-import com.jaquadro.minecraft.gardencommon.integration.IntegrationModule;
-import com.jaquadro.minecraft.gardencommon.integration.SmallTreeRegistryHelper;
-import com.jaquadro.minecraft.gardencore.api.IPlantMetaResolver;
-import com.jaquadro.minecraft.gardencore.api.IPlantRenderer;
-import com.jaquadro.minecraft.gardencore.api.PlantRegistry;
-import com.jaquadro.minecraft.gardencore.api.SaplingRegistry;
-import com.jaquadro.minecraft.gardencore.api.WoodRegistry;
-import com.jaquadro.minecraft.gardencore.api.plant.PlantSize;
-import com.jaquadro.minecraft.gardencore.api.plant.PlantType;
-import com.jaquadro.minecraft.gardencore.api.plant.SimplePlantInfo;
-import com.jaquadro.minecraft.gardencore.client.renderer.plant.CrossedSquaresPlantRenderer;
-
-import cpw.mods.fml.common.registry.GameRegistry;
-import cpw.mods.fml.common.registry.GameRegistry.UniqueIdentifier;
+import java.util.HashMap;
+import java.util.Map;
 
 public class BiomesOPlenty extends IntegrationModule {
 

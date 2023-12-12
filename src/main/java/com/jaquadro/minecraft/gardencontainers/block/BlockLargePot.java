@@ -1,8 +1,26 @@
 package com.jaquadro.minecraft.gardencontainers.block;
 
-import java.util.ArrayList;
-import java.util.List;
-
+import com.InfinityRaider.AgriCraft.api.v1.ISoilContainer;
+import com.jaquadro.minecraft.gardencontainers.GardenContainers;
+import com.jaquadro.minecraft.gardencontainers.block.tile.TileEntityLargePot;
+import com.jaquadro.minecraft.gardencontainers.config.PatternConfig;
+import com.jaquadro.minecraft.gardencontainers.core.ClientProxy;
+import com.jaquadro.minecraft.gardencore.api.block.IChainAttachable;
+import com.jaquadro.minecraft.gardencore.api.block.IGardenBlock;
+import com.jaquadro.minecraft.gardencore.api.plant.PlantItem;
+import com.jaquadro.minecraft.gardencore.api.plant.PlantSize;
+import com.jaquadro.minecraft.gardencore.api.plant.PlantType;
+import com.jaquadro.minecraft.gardencore.block.BlockGardenContainer;
+import com.jaquadro.minecraft.gardencore.block.support.BasicSlotProfile;
+import com.jaquadro.minecraft.gardencore.block.support.ContainerConnectionProfile;
+import com.jaquadro.minecraft.gardencore.block.support.Slot14ProfileBounded;
+import com.jaquadro.minecraft.gardencore.block.support.SlotShare8Profile;
+import com.jaquadro.minecraft.gardencore.block.tile.TileEntityGarden;
+import com.jaquadro.minecraft.gardencore.core.ModBlocks;
+import com.jaquadro.minecraft.gardencore.core.ModCreativeTabs;
+import cpw.mods.fml.common.Optional.Interface;
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IIconRegister;
@@ -25,28 +43,8 @@ import net.minecraftforge.common.EnumPlantType;
 import net.minecraftforge.common.IPlantable;
 import net.minecraftforge.common.util.ForgeDirection;
 
-import com.InfinityRaider.AgriCraft.api.v1.ISoilContainer;
-import com.jaquadro.minecraft.gardencontainers.GardenContainers;
-import com.jaquadro.minecraft.gardencontainers.block.tile.TileEntityLargePot;
-import com.jaquadro.minecraft.gardencontainers.config.PatternConfig;
-import com.jaquadro.minecraft.gardencontainers.core.ClientProxy;
-import com.jaquadro.minecraft.gardencore.api.block.IChainAttachable;
-import com.jaquadro.minecraft.gardencore.api.block.IGardenBlock;
-import com.jaquadro.minecraft.gardencore.api.plant.PlantItem;
-import com.jaquadro.minecraft.gardencore.api.plant.PlantSize;
-import com.jaquadro.minecraft.gardencore.api.plant.PlantType;
-import com.jaquadro.minecraft.gardencore.block.BlockGardenContainer;
-import com.jaquadro.minecraft.gardencore.block.support.BasicSlotProfile;
-import com.jaquadro.minecraft.gardencore.block.support.ContainerConnectionProfile;
-import com.jaquadro.minecraft.gardencore.block.support.Slot14ProfileBounded;
-import com.jaquadro.minecraft.gardencore.block.support.SlotShare8Profile;
-import com.jaquadro.minecraft.gardencore.block.tile.TileEntityGarden;
-import com.jaquadro.minecraft.gardencore.core.ModBlocks;
-import com.jaquadro.minecraft.gardencore.core.ModCreativeTabs;
-
-import cpw.mods.fml.common.Optional.Interface;
-import cpw.mods.fml.relauncher.Side;
-import cpw.mods.fml.relauncher.SideOnly;
+import java.util.ArrayList;
+import java.util.List;
 
 @Interface(modid = "AgriCraft", iface = "com.InfinityRaider.AgriCraft.api.v1.ISoilContainer")
 public abstract class BlockLargePot extends BlockGardenContainer implements IChainAttachable, ISoilContainer {

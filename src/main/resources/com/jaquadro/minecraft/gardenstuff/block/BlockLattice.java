@@ -7,8 +7,6 @@ import com.jaquadro.minecraft.gardencore.core.ModCreativeTabs;
 import com.jaquadro.minecraft.gardenstuff.block.tile.TileEntityLattice;
 import com.jaquadro.minecraft.gardenstuff.core.ClientProxy;
 import com.jaquadro.minecraft.gardentrees.block.BlockThinLog;
-import java.util.ArrayList;
-import java.util.List;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockContainer;
 import net.minecraft.block.material.Material;
@@ -21,6 +19,9 @@ import net.minecraft.util.Vec3;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 import net.minecraftforge.common.util.ForgeDirection;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public abstract class BlockLattice extends BlockContainer implements IChainSingleAttachable {
    private static final float UN4 = -0.25F;

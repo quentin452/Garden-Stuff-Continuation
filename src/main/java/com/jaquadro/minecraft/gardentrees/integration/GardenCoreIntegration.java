@@ -1,8 +1,13 @@
 package com.jaquadro.minecraft.gardentrees.integration;
 
-import java.util.Iterator;
-import java.util.List;
-
+import com.jaquadro.minecraft.gardencore.api.GardenCoreAPI;
+import com.jaquadro.minecraft.gardencore.api.IBonemealHandler;
+import com.jaquadro.minecraft.gardencore.api.SaplingRegistry;
+import com.jaquadro.minecraft.gardencore.api.WoodRegistry;
+import com.jaquadro.minecraft.gardencore.block.BlockGarden;
+import com.jaquadro.minecraft.gardentrees.core.ModBlocks;
+import com.jaquadro.minecraft.gardentrees.world.gen.WorldGenStandardOrnTree;
+import cpw.mods.fml.common.Loader;
 import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
@@ -12,15 +17,8 @@ import net.minecraft.world.World;
 import net.minecraft.world.gen.feature.WorldGenerator;
 import net.minecraftforge.oredict.OreDictionary;
 
-import com.jaquadro.minecraft.gardencore.api.GardenCoreAPI;
-import com.jaquadro.minecraft.gardencore.api.IBonemealHandler;
-import com.jaquadro.minecraft.gardencore.api.SaplingRegistry;
-import com.jaquadro.minecraft.gardencore.api.WoodRegistry;
-import com.jaquadro.minecraft.gardencore.block.BlockGarden;
-import com.jaquadro.minecraft.gardentrees.core.ModBlocks;
-import com.jaquadro.minecraft.gardentrees.world.gen.WorldGenStandardOrnTree;
-
-import cpw.mods.fml.common.Loader;
+import java.util.Iterator;
+import java.util.List;
 
 public class GardenCoreIntegration {
 

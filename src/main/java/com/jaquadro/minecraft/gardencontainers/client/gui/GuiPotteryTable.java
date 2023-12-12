@@ -1,5 +1,12 @@
 package com.jaquadro.minecraft.gardencontainers.client.gui;
 
+import com.jaquadro.minecraft.gardencontainers.block.BlockLargePot;
+import com.jaquadro.minecraft.gardencontainers.block.tile.TileEntityPotteryTable;
+import com.jaquadro.minecraft.gardencontainers.core.ModBlocks;
+import com.jaquadro.minecraft.gardencontainers.core.ModItems;
+import com.jaquadro.minecraft.gardencontainers.inventory.ContainerPotteryTable;
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.client.gui.inventory.GuiContainer;
 import net.minecraft.client.renderer.texture.TextureMap;
 import net.minecraft.client.resources.I18n;
@@ -8,17 +15,7 @@ import net.minecraft.inventory.Slot;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.IIcon;
 import net.minecraft.util.ResourceLocation;
-
 import org.lwjgl.opengl.GL11;
-
-import com.jaquadro.minecraft.gardencontainers.block.BlockLargePot;
-import com.jaquadro.minecraft.gardencontainers.block.tile.TileEntityPotteryTable;
-import com.jaquadro.minecraft.gardencontainers.core.ModBlocks;
-import com.jaquadro.minecraft.gardencontainers.core.ModItems;
-import com.jaquadro.minecraft.gardencontainers.inventory.ContainerPotteryTable;
-
-import cpw.mods.fml.relauncher.Side;
-import cpw.mods.fml.relauncher.SideOnly;
 
 @SideOnly(Side.CLIENT)
 public class GuiPotteryTable extends GuiContainer {

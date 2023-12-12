@@ -4,9 +4,6 @@ import com.jaquadro.minecraft.gardentrees.GardenTrees;
 import com.jaquadro.minecraft.gardentrees.core.ModCreativeTabs;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockFlower;
 import net.minecraft.client.renderer.texture.IIconRegister;
@@ -17,6 +14,10 @@ import net.minecraft.util.IIcon;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 import net.minecraftforge.common.IShearable;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
 
 public class BlockStrangePlant extends BlockFlower implements IShearable {
    @SideOnly(Side.CLIENT)

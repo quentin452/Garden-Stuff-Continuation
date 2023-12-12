@@ -1,27 +1,20 @@
 package com.jaquadro.minecraft.gardencommon.integration.mods;
 
-import net.minecraft.block.Block;
-import net.minecraft.item.ItemStack;
-import net.minecraft.util.IIcon;
-import net.minecraft.world.IBlockAccess;
-import net.minecraft.world.World;
-
 import com.jaquadro.minecraft.gardencommon.integration.IntegrationModule;
 import com.jaquadro.minecraft.gardencore.api.GardenCoreAPI;
 import com.jaquadro.minecraft.gardencore.api.IBonemealHandler;
 import com.jaquadro.minecraft.gardencore.api.IPlantRenderer;
 import com.jaquadro.minecraft.gardencore.api.PlantRegistry;
-import com.jaquadro.minecraft.gardencore.api.plant.DefaultPlantInfo;
-import com.jaquadro.minecraft.gardencore.api.plant.IPlantInfo;
-import com.jaquadro.minecraft.gardencore.api.plant.PlantItem;
-import com.jaquadro.minecraft.gardencore.api.plant.PlantSize;
-import com.jaquadro.minecraft.gardencore.api.plant.PlantType;
-import com.jaquadro.minecraft.gardencore.api.plant.SimplePlantInfo;
+import com.jaquadro.minecraft.gardencore.api.plant.*;
 import com.jaquadro.minecraft.gardencore.block.BlockGarden;
 import com.jaquadro.minecraft.gardencore.block.tile.TileEntityGarden;
 import com.jaquadro.minecraft.gardencore.client.renderer.plant.DoublePlantRenderer;
-
 import cpw.mods.fml.common.registry.GameRegistry;
+import net.minecraft.block.Block;
+import net.minecraft.item.ItemStack;
+import net.minecraft.util.IIcon;
+import net.minecraft.world.IBlockAccess;
+import net.minecraft.world.World;
 
 public class Botania extends IntegrationModule {
 

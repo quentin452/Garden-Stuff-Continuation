@@ -1,8 +1,8 @@
 package com.jaquadro.minecraft.gardentrees.block;
 
-import java.util.List;
-import java.util.Random;
-
+import com.jaquadro.minecraft.gardentrees.core.ModCreativeTabs;
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockSapling;
 import net.minecraft.client.renderer.texture.IIconRegister;
@@ -19,10 +19,8 @@ import net.minecraft.world.gen.feature.WorldGenTaiga1;
 import net.minecraft.world.gen.feature.WorldGenerator;
 import net.minecraftforge.event.terraingen.TerrainGen;
 
-import com.jaquadro.minecraft.gardentrees.core.ModCreativeTabs;
-
-import cpw.mods.fml.relauncher.Side;
-import cpw.mods.fml.relauncher.SideOnly;
+import java.util.List;
+import java.util.Random;
 
 public class BlockGTSapling extends BlockSapling {
 

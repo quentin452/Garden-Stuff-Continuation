@@ -1,13 +1,5 @@
 package com.jaquadro.minecraft.gardenstuff.renderer;
 
-import net.minecraft.block.Block;
-import net.minecraft.client.renderer.RenderBlocks;
-import net.minecraft.util.IIcon;
-import net.minecraft.world.IBlockAccess;
-import net.minecraftforge.common.util.ForgeDirection;
-
-import org.lwjgl.opengl.GL11;
-
 import com.jaquadro.minecraft.gardencore.api.block.IChain;
 import com.jaquadro.minecraft.gardencore.client.renderer.support.ModularBoxRenderer;
 import com.jaquadro.minecraft.gardencore.util.RenderHelper;
@@ -15,8 +7,13 @@ import com.jaquadro.minecraft.gardenstuff.block.BlockCandelabra;
 import com.jaquadro.minecraft.gardenstuff.block.tile.TileEntityCandelabra;
 import com.jaquadro.minecraft.gardenstuff.core.ClientProxy;
 import com.jaquadro.minecraft.gardenstuff.core.ModBlocks;
-
 import cpw.mods.fml.client.registry.ISimpleBlockRenderingHandler;
+import net.minecraft.block.Block;
+import net.minecraft.client.renderer.RenderBlocks;
+import net.minecraft.util.IIcon;
+import net.minecraft.world.IBlockAccess;
+import net.minecraftforge.common.util.ForgeDirection;
+import org.lwjgl.opengl.GL11;
 
 public class CandelabraRenderer implements ISimpleBlockRenderingHandler {
 

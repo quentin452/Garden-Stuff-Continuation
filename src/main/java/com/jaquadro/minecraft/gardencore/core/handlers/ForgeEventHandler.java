@@ -1,5 +1,12 @@
 package com.jaquadro.minecraft.gardencore.core.handlers;
 
+import com.jaquadro.minecraft.gardencore.api.IPlantProxy;
+import com.jaquadro.minecraft.gardencore.api.block.IGardenBlock;
+import com.jaquadro.minecraft.gardencore.block.BlockGarden;
+import com.jaquadro.minecraft.gardencore.block.BlockSmallFire;
+import cpw.mods.fml.common.eventhandler.Event.Result;
+import cpw.mods.fml.common.eventhandler.SubscribeEvent;
+import cpw.mods.fml.common.registry.GameData;
 import net.minecraft.block.Block;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
@@ -7,15 +14,6 @@ import net.minecraftforge.event.entity.player.BonemealEvent;
 import net.minecraftforge.event.entity.player.PlayerInteractEvent;
 import net.minecraftforge.event.entity.player.PlayerInteractEvent.Action;
 import net.minecraftforge.event.entity.player.UseHoeEvent;
-
-import com.jaquadro.minecraft.gardencore.api.IPlantProxy;
-import com.jaquadro.minecraft.gardencore.api.block.IGardenBlock;
-import com.jaquadro.minecraft.gardencore.block.BlockGarden;
-import com.jaquadro.minecraft.gardencore.block.BlockSmallFire;
-
-import cpw.mods.fml.common.eventhandler.Event.Result;
-import cpw.mods.fml.common.eventhandler.SubscribeEvent;
-import cpw.mods.fml.common.registry.GameData;
 
 public class ForgeEventHandler {
 

@@ -1,7 +1,12 @@
 package com.jaquadro.minecraft.gardenstuff.block;
 
-import java.util.Random;
-
+import com.jaquadro.minecraft.gardencore.core.ModCreativeTabs;
+import com.jaquadro.minecraft.gardenstuff.GardenStuff;
+import com.jaquadro.minecraft.gardenstuff.block.tile.TileEntityBloomeryFurnace;
+import com.jaquadro.minecraft.gardenstuff.core.ModBlocks;
+import com.jaquadro.minecraft.gardenstuff.core.handlers.GuiHandler;
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockContainer;
 import net.minecraft.block.material.Material;
@@ -20,14 +25,7 @@ import net.minecraft.util.MathHelper;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 
-import com.jaquadro.minecraft.gardencore.core.ModCreativeTabs;
-import com.jaquadro.minecraft.gardenstuff.GardenStuff;
-import com.jaquadro.minecraft.gardenstuff.block.tile.TileEntityBloomeryFurnace;
-import com.jaquadro.minecraft.gardenstuff.core.ModBlocks;
-import com.jaquadro.minecraft.gardenstuff.core.handlers.GuiHandler;
-
-import cpw.mods.fml.relauncher.Side;
-import cpw.mods.fml.relauncher.SideOnly;
+import java.util.Random;
 
 public class BlockBloomeryFurnace extends BlockContainer {
 

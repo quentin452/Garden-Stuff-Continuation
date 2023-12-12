@@ -1,7 +1,10 @@
 package com.jaquadro.minecraft.gardencore.block;
 
-import java.util.Random;
-
+import com.jaquadro.minecraft.gardencore.api.GardenCoreAPI;
+import com.jaquadro.minecraft.gardencore.core.ClientProxy;
+import com.jaquadro.minecraft.gardencore.core.ModBlocks;
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.MapColor;
 import net.minecraft.block.material.Material;
@@ -13,12 +16,7 @@ import net.minecraft.util.AxisAlignedBB;
 import net.minecraft.util.IIcon;
 import net.minecraft.world.World;
 
-import com.jaquadro.minecraft.gardencore.api.GardenCoreAPI;
-import com.jaquadro.minecraft.gardencore.core.ClientProxy;
-import com.jaquadro.minecraft.gardencore.core.ModBlocks;
-
-import cpw.mods.fml.relauncher.Side;
-import cpw.mods.fml.relauncher.SideOnly;
+import java.util.Random;
 
 public class BlockSmallFire extends Block {
 

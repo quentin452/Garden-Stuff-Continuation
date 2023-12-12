@@ -1,13 +1,11 @@
 package com.jaquadro.minecraft.gardencontainers.core;
 
+import com.jaquadro.minecraft.gardencontainers.GardenContainers;
+import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.oredict.ShapelessOreRecipe;
-
-import com.jaquadro.minecraft.gardencontainers.GardenContainers;
-
-import cpw.mods.fml.common.registry.GameRegistry;
 
 public class ModRecipes {
 

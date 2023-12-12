@@ -1,14 +1,13 @@
 package com.jaquadro.minecraft.gardenstuff.item;
 
+import com.jaquadro.minecraft.gardencore.core.ModCreativeTabs;
+import com.jaquadro.minecraft.gardenstuff.core.ModBlocks;
 import net.minecraft.block.Block;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
-
-import com.jaquadro.minecraft.gardencore.core.ModCreativeTabs;
-import com.jaquadro.minecraft.gardenstuff.core.ModBlocks;
 
 public class ItemMossPaste extends Item {
 

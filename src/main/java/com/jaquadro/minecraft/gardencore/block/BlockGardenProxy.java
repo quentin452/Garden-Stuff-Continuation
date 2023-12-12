@@ -1,10 +1,13 @@
 package com.jaquadro.minecraft.gardencore.block;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Random;
-
+import com.jaquadro.minecraft.gardencore.GardenCore;
+import com.jaquadro.minecraft.gardencore.api.GardenCoreAPI;
+import com.jaquadro.minecraft.gardencore.api.IBonemealHandler;
+import com.jaquadro.minecraft.gardencore.api.IPlantProxy;
+import com.jaquadro.minecraft.gardencore.block.tile.TileEntityGarden;
+import com.jaquadro.minecraft.gardencore.core.ClientProxy;
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.particle.EffectRenderer;
@@ -24,15 +27,10 @@ import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 import net.minecraftforge.common.IPlantable;
 
-import com.jaquadro.minecraft.gardencore.GardenCore;
-import com.jaquadro.minecraft.gardencore.api.GardenCoreAPI;
-import com.jaquadro.minecraft.gardencore.api.IBonemealHandler;
-import com.jaquadro.minecraft.gardencore.api.IPlantProxy;
-import com.jaquadro.minecraft.gardencore.block.tile.TileEntityGarden;
-import com.jaquadro.minecraft.gardencore.core.ClientProxy;
-
-import cpw.mods.fml.relauncher.Side;
-import cpw.mods.fml.relauncher.SideOnly;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Random;
 
 public class BlockGardenProxy extends Block implements IPlantProxy {
 

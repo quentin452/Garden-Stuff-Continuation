@@ -1,17 +1,15 @@
 package com.jaquadro.minecraft.gardencore.integration;
 
-import net.minecraft.block.Block;
-import net.minecraft.item.Item;
-
 import com.jaquadro.minecraft.gardencore.api.PlantRegistry;
 import com.jaquadro.minecraft.gardencore.api.SaplingRegistry;
 import com.jaquadro.minecraft.gardencore.api.WoodRegistry;
 import com.jaquadro.minecraft.gardencore.api.plant.PlantSize;
 import com.jaquadro.minecraft.gardencore.api.plant.PlantType;
 import com.jaquadro.minecraft.gardencore.api.plant.SimplePlantInfo;
-
 import cpw.mods.fml.common.Loader;
 import cpw.mods.fml.common.registry.GameRegistry;
+import net.minecraft.block.Block;
+import net.minecraft.item.Item;
 
 public class TwilightForestIntegration {
 

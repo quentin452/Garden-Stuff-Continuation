@@ -1,11 +1,10 @@
 package com.jaquadro.minecraft.gardencore.api.plant;
 
+import com.jaquadro.minecraft.gardencore.api.PlantRegistry;
 import net.minecraft.block.Block;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.IBlockAccess;
 import net.minecraftforge.common.IPlantable;
-
-import com.jaquadro.minecraft.gardencore.api.PlantRegistry;
 
 public class PlantItem {
 

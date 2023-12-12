@@ -1,14 +1,12 @@
 package com.jaquadro.minecraft.gardenstuff.integration.minetweaker;
 
-import net.minecraft.item.ItemStack;
-
 import com.jaquadro.minecraft.gardenapi.api.GardenAPI;
 import com.jaquadro.minecraft.gardenapi.api.machine.StandardCompostMaterial;
-
 import minetweaker.IUndoableAction;
 import minetweaker.MineTweakerAPI;
 import minetweaker.api.item.IItemStack;
 import minetweaker.api.minecraft.MineTweakerMC;
+import net.minecraft.item.ItemStack;
 import stanhebben.zenscript.annotations.ZenClass;
 import stanhebben.zenscript.annotations.ZenMethod;
 

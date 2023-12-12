@@ -1,12 +1,5 @@
 package com.jaquadro.minecraft.gardenstuff.integration;
 
-import java.lang.reflect.Constructor;
-import java.util.Random;
-
-import net.minecraft.block.Block;
-import net.minecraft.entity.effect.EntityWeatherEffect;
-import net.minecraft.world.World;
-
 import com.jaquadro.minecraft.gardenapi.api.GardenAPI;
 import com.jaquadro.minecraft.gardenapi.api.component.ILanternSource;
 import com.jaquadro.minecraft.gardenstuff.GardenStuff;
@@ -14,12 +7,17 @@ import com.jaquadro.minecraft.gardenstuff.core.ClientProxy;
 import com.jaquadro.minecraft.gardenstuff.integration.lantern.FireflyLanternSource;
 import com.jaquadro.minecraft.gardenstuff.integration.twilightforest.EntityFireflyWrapper;
 import com.jaquadro.minecraft.gardenstuff.integration.twilightforest.RenderFireflyWrapper;
-
 import cpw.mods.fml.client.registry.RenderingRegistry;
 import cpw.mods.fml.common.Loader;
 import cpw.mods.fml.common.registry.GameRegistry;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
+import net.minecraft.block.Block;
+import net.minecraft.entity.effect.EntityWeatherEffect;
+import net.minecraft.world.World;
+
+import java.lang.reflect.Constructor;
+import java.util.Random;
 
 public class TwilightForestIntegration {
 

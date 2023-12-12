@@ -1,7 +1,11 @@
 package com.jaquadro.minecraft.gardencontainers.item;
 
-import java.util.List;
-
+import com.jaquadro.minecraft.gardencontainers.GardenContainers;
+import com.jaquadro.minecraft.gardencontainers.config.PatternConfig;
+import com.jaquadro.minecraft.gardencontainers.core.ModItems;
+import com.jaquadro.minecraft.gardencore.core.ModCreativeTabs;
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockCauldron;
 import net.minecraft.entity.item.EntityItem;
@@ -11,13 +15,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.StatCollector;
 import net.minecraft.world.World;
 
-import com.jaquadro.minecraft.gardencontainers.GardenContainers;
-import com.jaquadro.minecraft.gardencontainers.config.PatternConfig;
-import com.jaquadro.minecraft.gardencontainers.core.ModItems;
-import com.jaquadro.minecraft.gardencore.core.ModCreativeTabs;
-
-import cpw.mods.fml.relauncher.Side;
-import cpw.mods.fml.relauncher.SideOnly;
+import java.util.List;
 
 public class ItemPotteryPatternDirty extends Item {
 

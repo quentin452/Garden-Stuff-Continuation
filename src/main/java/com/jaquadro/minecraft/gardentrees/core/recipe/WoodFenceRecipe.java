@@ -1,16 +1,15 @@
 package com.jaquadro.minecraft.gardentrees.core.recipe;
 
+import com.jaquadro.minecraft.gardencore.api.WoodRegistry;
+import com.jaquadro.minecraft.gardencore.util.UniqueMetaIdentifier;
+import com.jaquadro.minecraft.gardentrees.block.tile.TileEntityWoodProxy;
+import com.jaquadro.minecraft.gardentrees.core.ModBlocks;
 import net.minecraft.block.Block;
 import net.minecraft.init.Items;
 import net.minecraft.inventory.InventoryCrafting;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.crafting.IRecipe;
 import net.minecraft.world.World;
-
-import com.jaquadro.minecraft.gardencore.api.WoodRegistry;
-import com.jaquadro.minecraft.gardencore.util.UniqueMetaIdentifier;
-import com.jaquadro.minecraft.gardentrees.block.tile.TileEntityWoodProxy;
-import com.jaquadro.minecraft.gardentrees.core.ModBlocks;
 
 public class WoodFenceRecipe implements IRecipe {
 

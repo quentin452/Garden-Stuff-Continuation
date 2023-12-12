@@ -1,7 +1,11 @@
 package com.jaquadro.minecraft.gardenstuff.block;
 
-import java.util.List;
-
+import com.jaquadro.minecraft.gardencore.api.block.IChain;
+import com.jaquadro.minecraft.gardencore.core.ModCreativeTabs;
+import com.jaquadro.minecraft.gardenstuff.core.ClientProxy;
+import com.jaquadro.minecraft.gardenstuff.core.ModBlocks;
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IIconRegister;
@@ -14,13 +18,7 @@ import net.minecraft.util.MathHelper;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 
-import com.jaquadro.minecraft.gardencore.api.block.IChain;
-import com.jaquadro.minecraft.gardencore.core.ModCreativeTabs;
-import com.jaquadro.minecraft.gardenstuff.core.ClientProxy;
-import com.jaquadro.minecraft.gardenstuff.core.ModBlocks;
-
-import cpw.mods.fml.relauncher.Side;
-import cpw.mods.fml.relauncher.SideOnly;
+import java.util.List;
 
 public class BlockHeavyChain extends Block implements IChain {
 

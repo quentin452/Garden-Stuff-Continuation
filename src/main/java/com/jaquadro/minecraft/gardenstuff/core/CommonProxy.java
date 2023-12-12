@@ -1,11 +1,10 @@
 package com.jaquadro.minecraft.gardenstuff.core;
 
-import java.util.HashMap;
-import java.util.Map;
-
+import com.jaquadro.minecraft.gardencore.util.BindingStack;
 import net.minecraft.world.World;
 
-import com.jaquadro.minecraft.gardencore.util.BindingStack;
+import java.util.HashMap;
+import java.util.Map;
 
 public abstract class CommonProxy {
 

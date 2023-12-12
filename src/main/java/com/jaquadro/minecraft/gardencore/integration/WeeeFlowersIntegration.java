@@ -4,7 +4,6 @@ import com.jaquadro.minecraft.gardencore.api.PlantRegistry;
 import com.jaquadro.minecraft.gardencore.api.plant.PlantSize;
 import com.jaquadro.minecraft.gardencore.api.plant.PlantType;
 import com.jaquadro.minecraft.gardencore.api.plant.SimplePlantInfo;
-
 import cpw.mods.fml.common.Loader;
 
 public class WeeeFlowersIntegration {

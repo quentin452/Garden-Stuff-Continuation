@@ -11,7 +11,6 @@ import com.jaquadro.minecraft.gardencore.block.support.BasicSlotProfile;
 import com.jaquadro.minecraft.gardencore.block.support.Slot5Profile;
 import com.jaquadro.minecraft.gardencore.block.support.SlotShare0Profile;
 import com.jaquadro.minecraft.gardencore.core.ModCreativeTabs;
-import java.util.List;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IIconRegister;
@@ -28,6 +27,8 @@ import net.minecraft.util.IIcon;
 import net.minecraft.util.MathHelper;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
+
+import java.util.List;
 
 public class BlockWindowBox extends BlockGarden {
    public static final String[] subTypes = new String[]{"oak", "spruce", "birch", "jungle", "acacia", "big_oak"};

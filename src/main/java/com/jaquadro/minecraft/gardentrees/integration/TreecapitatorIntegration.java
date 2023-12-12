@@ -1,12 +1,10 @@
 package com.jaquadro.minecraft.gardentrees.integration;
 
-import net.minecraft.nbt.NBTTagCompound;
-import net.minecraft.nbt.NBTTagList;
-
 import com.jaquadro.minecraft.gardentrees.core.ModBlocks;
-
 import cpw.mods.fml.common.Loader;
 import cpw.mods.fml.common.event.FMLInterModComms;
+import net.minecraft.nbt.NBTTagCompound;
+import net.minecraft.nbt.NBTTagList;
 
 public class TreecapitatorIntegration {
 

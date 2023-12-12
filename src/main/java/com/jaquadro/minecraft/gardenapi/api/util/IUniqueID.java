@@ -1,8 +1,7 @@
 package com.jaquadro.minecraft.gardenapi.api.util;
 
-import net.minecraft.block.Block;
-
 import cpw.mods.fml.common.registry.GameRegistry.UniqueIdentifier;
+import net.minecraft.block.Block;
 
 public interface IUniqueID {
 

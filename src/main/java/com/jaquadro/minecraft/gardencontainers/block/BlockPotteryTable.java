@@ -1,7 +1,11 @@
 package com.jaquadro.minecraft.gardencontainers.block;
 
-import java.util.Random;
-
+import com.jaquadro.minecraft.gardencontainers.GardenContainers;
+import com.jaquadro.minecraft.gardencontainers.block.tile.TileEntityPotteryTable;
+import com.jaquadro.minecraft.gardencontainers.core.handlers.GuiHandler;
+import com.jaquadro.minecraft.gardencore.core.ModCreativeTabs;
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockContainer;
 import net.minecraft.block.material.Material;
@@ -15,13 +19,7 @@ import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.IIcon;
 import net.minecraft.world.World;
 
-import com.jaquadro.minecraft.gardencontainers.GardenContainers;
-import com.jaquadro.minecraft.gardencontainers.block.tile.TileEntityPotteryTable;
-import com.jaquadro.minecraft.gardencontainers.core.handlers.GuiHandler;
-import com.jaquadro.minecraft.gardencore.core.ModCreativeTabs;
-
-import cpw.mods.fml.relauncher.Side;
-import cpw.mods.fml.relauncher.SideOnly;
+import java.util.Random;
 
 public class BlockPotteryTable extends BlockContainer {
 

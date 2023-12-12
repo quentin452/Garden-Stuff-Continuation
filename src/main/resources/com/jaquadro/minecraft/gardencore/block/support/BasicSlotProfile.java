@@ -4,12 +4,13 @@ import com.jaquadro.minecraft.gardencore.api.block.garden.ISlotProfile;
 import com.jaquadro.minecraft.gardencore.api.plant.PlantItem;
 import com.jaquadro.minecraft.gardencore.api.plant.PlantSize;
 import com.jaquadro.minecraft.gardencore.api.plant.PlantType;
-import java.util.ArrayList;
-import java.util.List;
 import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.AxisAlignedBB;
 import net.minecraft.world.IBlockAccess;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class BasicSlotProfile implements ISlotProfile {
    private static AxisAlignedBB[] defaultClippingBounds = new AxisAlignedBB[]{AxisAlignedBB.getBoundingBox(0.0D, 0.0D, 0.0D, 1.0D, 1.0D, 1.0D)};

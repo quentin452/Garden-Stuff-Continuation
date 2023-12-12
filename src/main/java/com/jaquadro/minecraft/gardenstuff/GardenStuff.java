@@ -1,12 +1,7 @@
 package com.jaquadro.minecraft.gardenstuff;
 
-import com.jaquadro.minecraft.gardenstuff.core.CommonProxy;
-import com.jaquadro.minecraft.gardenstuff.core.ModBlocks;
-import com.jaquadro.minecraft.gardenstuff.core.ModIntegration;
-import com.jaquadro.minecraft.gardenstuff.core.ModItems;
-import com.jaquadro.minecraft.gardenstuff.core.ModRecipes;
+import com.jaquadro.minecraft.gardenstuff.core.*;
 import com.jaquadro.minecraft.gardenstuff.core.handlers.GuiHandler;
-
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.Mod.Instance;

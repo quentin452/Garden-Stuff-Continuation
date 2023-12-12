@@ -1,15 +1,13 @@
 package com.jaquadro.minecraft.gardenstuff.renderer;
 
+import com.jaquadro.minecraft.gardencore.client.renderer.support.ModularBoxRenderer;
+import com.jaquadro.minecraft.gardenstuff.block.BlockFence;
+import com.jaquadro.minecraft.gardenstuff.core.ClientProxy;
+import cpw.mods.fml.client.registry.ISimpleBlockRenderingHandler;
 import net.minecraft.block.Block;
 import net.minecraft.client.renderer.RenderBlocks;
 import net.minecraft.client.renderer.Tessellator;
 import net.minecraft.world.IBlockAccess;
-
-import com.jaquadro.minecraft.gardencore.client.renderer.support.ModularBoxRenderer;
-import com.jaquadro.minecraft.gardenstuff.block.BlockFence;
-import com.jaquadro.minecraft.gardenstuff.core.ClientProxy;
-
-import cpw.mods.fml.client.registry.ISimpleBlockRenderingHandler;
 
 public class FenceRenderer implements ISimpleBlockRenderingHandler {
 

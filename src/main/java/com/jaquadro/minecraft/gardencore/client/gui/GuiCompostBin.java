@@ -1,15 +1,13 @@
 package com.jaquadro.minecraft.gardencore.client.gui;
 
+import com.jaquadro.minecraft.gardencore.block.tile.TileEntityCompostBin;
+import com.jaquadro.minecraft.gardencore.inventory.ContainerCompostBin;
 import net.minecraft.client.gui.inventory.GuiContainer;
 import net.minecraft.client.resources.I18n;
 import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.inventory.Slot;
 import net.minecraft.util.ResourceLocation;
-
 import org.lwjgl.opengl.GL11;
-
-import com.jaquadro.minecraft.gardencore.block.tile.TileEntityCompostBin;
-import com.jaquadro.minecraft.gardencore.inventory.ContainerCompostBin;
 
 public class GuiCompostBin extends GuiContainer {
 

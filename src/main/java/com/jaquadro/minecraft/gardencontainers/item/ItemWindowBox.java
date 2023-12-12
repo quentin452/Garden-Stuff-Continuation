@@ -1,14 +1,13 @@
 package com.jaquadro.minecraft.gardencontainers.item;
 
+import com.jaquadro.minecraft.gardencontainers.block.BlockWindowBox;
+import com.jaquadro.minecraft.gardencontainers.block.tile.TileEntityWindowBox;
 import net.minecraft.block.Block;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemMultiTexture;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
-
-import com.jaquadro.minecraft.gardencontainers.block.BlockWindowBox;
-import com.jaquadro.minecraft.gardencontainers.block.tile.TileEntityWindowBox;
 
 public class ItemWindowBox extends ItemMultiTexture {
 

@@ -8,8 +8,6 @@ import com.jaquadro.minecraft.gardencore.block.BlockGarden;
 import com.jaquadro.minecraft.gardentrees.core.ModBlocks;
 import com.jaquadro.minecraft.gardentrees.world.gen.WorldGenStandardOrnTree;
 import cpw.mods.fml.common.Loader;
-import java.util.Iterator;
-import java.util.List;
 import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
@@ -18,6 +16,9 @@ import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.world.World;
 import net.minecraft.world.gen.feature.WorldGenerator;
 import net.minecraftforge.oredict.OreDictionary;
+
+import java.util.Iterator;
+import java.util.List;
 
 public class GardenCoreIntegration {
    public static final String MOD_ID = "GardenCore";

@@ -1,8 +1,8 @@
 package com.jaquadro.minecraft.gardenstuff.container;
 
-import java.util.ArrayList;
-import java.util.List;
-
+import com.jaquadro.minecraft.gardenstuff.block.tile.TileEntityBloomeryFurnace;
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.inventory.Container;
@@ -10,10 +10,8 @@ import net.minecraft.inventory.ICrafting;
 import net.minecraft.inventory.Slot;
 import net.minecraft.item.ItemStack;
 
-import com.jaquadro.minecraft.gardenstuff.block.tile.TileEntityBloomeryFurnace;
-
-import cpw.mods.fml.relauncher.Side;
-import cpw.mods.fml.relauncher.SideOnly;
+import java.util.ArrayList;
+import java.util.List;
 
 public class ContainerBloomeryFurnace extends Container {
 

@@ -4,7 +4,6 @@ import com.jaquadro.minecraft.gardentrees.client.renderer.FlowerLeafRenderer;
 import com.jaquadro.minecraft.gardentrees.client.renderer.IvyRenderer;
 import com.jaquadro.minecraft.gardentrees.client.renderer.ThinLogFenceRenderer;
 import com.jaquadro.minecraft.gardentrees.client.renderer.ThinLogRenderer;
-
 import cpw.mods.fml.client.registry.RenderingRegistry;
 
 public class ClientProxy extends CommonProxy {

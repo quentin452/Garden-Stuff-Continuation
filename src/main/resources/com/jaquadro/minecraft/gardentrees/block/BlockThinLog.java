@@ -9,11 +9,6 @@ import com.jaquadro.minecraft.gardentrees.core.ModBlocks;
 import com.jaquadro.minecraft.gardentrees.core.ModCreativeTabs;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Random;
-import java.util.Map.Entry;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockContainer;
 import net.minecraft.block.BlockLeavesBase;
@@ -36,6 +31,12 @@ import net.minecraft.util.Vec3;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 import net.minecraftforge.common.util.ForgeDirection;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map.Entry;
+import java.util.Random;
 
 public class BlockThinLog extends BlockContainer implements IChainSingleAttachable {
    public static final String[] subNames = new String[]{"oak", "spruce", "birch", "jungle", "acacia", "big_oak"};

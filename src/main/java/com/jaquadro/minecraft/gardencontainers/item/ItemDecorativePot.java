@@ -1,11 +1,10 @@
 package com.jaquadro.minecraft.gardencontainers.item;
 
+import com.jaquadro.minecraft.gardencontainers.block.BlockDecorativePot;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockQuartz;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.item.ItemMultiTexture;
-
-import com.jaquadro.minecraft.gardencontainers.block.BlockDecorativePot;
 
 public class ItemDecorativePot extends ItemMultiTexture {
 

@@ -1,5 +1,6 @@
 package com.jaquadro.minecraft.gardencontainers.inventory;
 
+import cpw.mods.fml.common.FMLCommonHandler;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Items;
 import net.minecraft.inventory.IInventory;
@@ -7,8 +8,6 @@ import net.minecraft.inventory.Slot;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.entity.player.PlayerDestroyItemEvent;
-
-import cpw.mods.fml.common.FMLCommonHandler;
 
 public class SlotPottery extends Slot {
 

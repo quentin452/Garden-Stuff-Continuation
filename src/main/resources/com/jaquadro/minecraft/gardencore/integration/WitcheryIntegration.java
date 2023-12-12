@@ -1,10 +1,6 @@
 package com.jaquadro.minecraft.gardencore.integration;
 
-import com.jaquadro.minecraft.gardencore.api.GardenCoreAPI;
-import com.jaquadro.minecraft.gardencore.api.IBonemealHandler;
-import com.jaquadro.minecraft.gardencore.api.PlantRegistry;
-import com.jaquadro.minecraft.gardencore.api.SaplingRegistry;
-import com.jaquadro.minecraft.gardencore.api.WoodRegistry;
+import com.jaquadro.minecraft.gardencore.api.*;
 import com.jaquadro.minecraft.gardencore.api.plant.PlantItem;
 import com.jaquadro.minecraft.gardencore.api.plant.PlantSize;
 import com.jaquadro.minecraft.gardencore.api.plant.PlantType;

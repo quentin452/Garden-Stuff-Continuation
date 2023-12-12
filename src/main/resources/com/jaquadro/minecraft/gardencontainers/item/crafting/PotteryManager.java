@@ -3,13 +3,10 @@ package com.jaquadro.minecraft.gardencontainers.item.crafting;
 import com.jaquadro.minecraft.gardencontainers.GardenContainers;
 import com.jaquadro.minecraft.gardencontainers.core.ModBlocks;
 import com.jaquadro.minecraft.gardencontainers.core.ModItems;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
-import java.util.Map.Entry;
 import net.minecraft.item.ItemStack;
+
+import java.util.*;
+import java.util.Map.Entry;
 
 public class PotteryManager {
    private static final PotteryManager instance = new PotteryManager();

@@ -1,8 +1,7 @@
 package com.jaquadro.minecraft.gardenstuff.integration.nei;
 
-import com.jaquadro.minecraft.gardenstuff.client.gui.GuiBloomeryFurnace;
-
 import codechicken.nei.api.API;
+import com.jaquadro.minecraft.gardenstuff.client.gui.GuiBloomeryFurnace;
 
 public class NEIHelper {
 

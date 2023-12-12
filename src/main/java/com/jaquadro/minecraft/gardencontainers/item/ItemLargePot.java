@@ -1,20 +1,18 @@
 package com.jaquadro.minecraft.gardencontainers.item;
 
-import java.util.List;
-
+import com.jaquadro.minecraft.gardencontainers.GardenContainers;
+import com.jaquadro.minecraft.gardencontainers.block.BlockLargePot;
+import com.jaquadro.minecraft.gardencontainers.block.tile.TileEntityLargePot;
+import com.jaquadro.minecraft.gardencontainers.config.PatternConfig;
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.Block;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemMultiTexture;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
 
-import com.jaquadro.minecraft.gardencontainers.GardenContainers;
-import com.jaquadro.minecraft.gardencontainers.block.BlockLargePot;
-import com.jaquadro.minecraft.gardencontainers.block.tile.TileEntityLargePot;
-import com.jaquadro.minecraft.gardencontainers.config.PatternConfig;
-
-import cpw.mods.fml.relauncher.Side;
-import cpw.mods.fml.relauncher.SideOnly;
+import java.util.List;
 
 public class ItemLargePot extends ItemMultiTexture {
 

@@ -7,10 +7,6 @@ import com.jaquadro.minecraft.gardentrees.core.ClientProxy;
 import com.jaquadro.minecraft.gardentrees.core.ModCreativeTabs;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map.Entry;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockContainer;
 import net.minecraft.block.material.Material;
@@ -30,6 +26,11 @@ import net.minecraft.util.IIcon;
 import net.minecraft.util.MovingObjectPosition;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map.Entry;
 
 public class BlockThinLogFence extends BlockContainer {
    public static final String[] subNames = new String[]{"oak", "spruce", "birch", "jungle", "acacia", "big_oak"};

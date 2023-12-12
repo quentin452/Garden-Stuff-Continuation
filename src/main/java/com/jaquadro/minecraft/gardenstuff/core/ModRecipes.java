@@ -1,15 +1,13 @@
 package com.jaquadro.minecraft.gardenstuff.core;
 
+import com.jaquadro.minecraft.gardenstuff.item.ItemLantern;
+import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.oredict.ShapedOreRecipe;
 import net.minecraftforge.oredict.ShapelessOreRecipe;
-
-import com.jaquadro.minecraft.gardenstuff.item.ItemLantern;
-
-import cpw.mods.fml.common.registry.GameRegistry;
 
 public class ModRecipes {
 

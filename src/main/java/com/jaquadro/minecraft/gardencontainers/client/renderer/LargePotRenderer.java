@@ -1,5 +1,11 @@
 package com.jaquadro.minecraft.gardencontainers.client.renderer;
 
+import com.jaquadro.minecraft.gardencontainers.block.BlockLargePot;
+import com.jaquadro.minecraft.gardencontainers.block.tile.TileEntityLargePot;
+import com.jaquadro.minecraft.gardencontainers.core.ClientProxy;
+import com.jaquadro.minecraft.gardencore.client.renderer.support.ModularBoxRenderer;
+import com.jaquadro.minecraft.gardencore.util.RenderHelper;
+import cpw.mods.fml.client.registry.ISimpleBlockRenderingHandler;
 import net.minecraft.block.Block;
 import net.minecraft.client.renderer.RenderBlocks;
 import net.minecraft.init.Blocks;
@@ -7,16 +13,7 @@ import net.minecraft.item.ItemBlock;
 import net.minecraft.util.IIcon;
 import net.minecraft.world.ColorizerGrass;
 import net.minecraft.world.IBlockAccess;
-
 import org.lwjgl.opengl.GL11;
-
-import com.jaquadro.minecraft.gardencontainers.block.BlockLargePot;
-import com.jaquadro.minecraft.gardencontainers.block.tile.TileEntityLargePot;
-import com.jaquadro.minecraft.gardencontainers.core.ClientProxy;
-import com.jaquadro.minecraft.gardencore.client.renderer.support.ModularBoxRenderer;
-import com.jaquadro.minecraft.gardencore.util.RenderHelper;
-
-import cpw.mods.fml.client.registry.ISimpleBlockRenderingHandler;
 
 public class LargePotRenderer implements ISimpleBlockRenderingHandler {
 

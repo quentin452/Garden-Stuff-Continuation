@@ -5,8 +5,6 @@ import com.jaquadro.minecraft.gardenapi.api.machine.ICompostRegistry;
 import com.jaquadro.minecraft.gardenapi.api.machine.StandardCompostMaterial;
 import com.jaquadro.minecraft.gardencore.util.UniqueMetaIdentifier;
 import com.jaquadro.minecraft.gardencore.util.UniqueMetaRegistry;
-import java.util.HashMap;
-import java.util.Map;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockLeavesBase;
 import net.minecraft.block.BlockVine;
@@ -18,6 +16,9 @@ import net.minecraft.item.ItemFood;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.IPlantable;
 import net.minecraftforge.oredict.OreDictionary;
+
+import java.util.HashMap;
+import java.util.Map;
 
 public class CompostRegistry implements ICompostRegistry {
    private static ICompostMaterial defaultMaterial = new StandardCompostMaterial();

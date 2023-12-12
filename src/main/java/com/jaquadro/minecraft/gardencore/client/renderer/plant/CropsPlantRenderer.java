@@ -1,13 +1,12 @@
 package com.jaquadro.minecraft.gardencore.client.renderer.plant;
 
+import com.jaquadro.minecraft.gardencore.api.IPlantMetaResolver;
+import com.jaquadro.minecraft.gardencore.api.IPlantRenderer;
+import com.jaquadro.minecraft.gardencore.api.PlantRegistry;
 import net.minecraft.block.Block;
 import net.minecraft.client.renderer.RenderBlocks;
 import net.minecraft.util.AxisAlignedBB;
 import net.minecraft.world.IBlockAccess;
-
-import com.jaquadro.minecraft.gardencore.api.IPlantMetaResolver;
-import com.jaquadro.minecraft.gardencore.api.IPlantRenderer;
-import com.jaquadro.minecraft.gardencore.api.PlantRegistry;
 
 public class CropsPlantRenderer implements IPlantRenderer {
 

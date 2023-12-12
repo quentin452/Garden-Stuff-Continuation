@@ -1,7 +1,15 @@
 package com.jaquadro.minecraft.gardencore.block;
 
-import java.util.Random;
-
+import com.jaquadro.minecraft.gardencore.GardenCore;
+import com.jaquadro.minecraft.gardencore.block.support.BasicConnectionProfile;
+import com.jaquadro.minecraft.gardencore.block.support.BasicSlotProfile;
+import com.jaquadro.minecraft.gardencore.block.support.SlotShare0Profile;
+import com.jaquadro.minecraft.gardencore.block.tile.TileEntityGarden;
+import com.jaquadro.minecraft.gardencore.block.tile.TileEntityGardenFarmland;
+import com.jaquadro.minecraft.gardencore.core.ModBlocks;
+import com.jaquadro.minecraft.gardencore.core.ModCreativeTabs;
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.Block;
 import net.minecraft.block.IGrowable;
 import net.minecraft.block.material.Material;
@@ -17,17 +25,7 @@ import net.minecraftforge.common.EnumPlantType;
 import net.minecraftforge.common.IPlantable;
 import net.minecraftforge.common.util.ForgeDirection;
 
-import com.jaquadro.minecraft.gardencore.GardenCore;
-import com.jaquadro.minecraft.gardencore.block.support.BasicConnectionProfile;
-import com.jaquadro.minecraft.gardencore.block.support.BasicSlotProfile;
-import com.jaquadro.minecraft.gardencore.block.support.SlotShare0Profile;
-import com.jaquadro.minecraft.gardencore.block.tile.TileEntityGarden;
-import com.jaquadro.minecraft.gardencore.block.tile.TileEntityGardenFarmland;
-import com.jaquadro.minecraft.gardencore.core.ModBlocks;
-import com.jaquadro.minecraft.gardencore.core.ModCreativeTabs;
-
-import cpw.mods.fml.relauncher.Side;
-import cpw.mods.fml.relauncher.SideOnly;
+import java.util.Random;
 
 public class BlockGardenFarmland extends BlockGarden {
 

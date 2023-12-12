@@ -1,9 +1,8 @@
 package com.jaquadro.minecraft.gardenstuff.block.tile;
 
+import com.jaquadro.minecraft.gardencore.block.tile.TileEntityBlockMateralProxy;
 import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;
-
-import com.jaquadro.minecraft.gardencore.block.tile.TileEntityBlockMateralProxy;
 
 public class TileEntityLatticeWood extends TileEntityLattice {
 

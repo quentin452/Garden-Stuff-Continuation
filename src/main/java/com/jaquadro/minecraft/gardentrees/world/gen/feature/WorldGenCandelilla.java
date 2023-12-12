@@ -1,7 +1,6 @@
 package com.jaquadro.minecraft.gardentrees.world.gen.feature;
 
-import java.util.Random;
-
+import cpw.mods.fml.common.IWorldGenerator;
 import net.minecraft.block.Block;
 import net.minecraft.world.World;
 import net.minecraft.world.biome.BiomeGenBase;
@@ -10,7 +9,7 @@ import net.minecraft.world.gen.feature.WorldGenerator;
 import net.minecraftforge.common.BiomeDictionary;
 import net.minecraftforge.common.BiomeDictionary.Type;
 
-import cpw.mods.fml.common.IWorldGenerator;
+import java.util.Random;
 
 public class WorldGenCandelilla extends WorldGenerator implements IWorldGenerator {
 

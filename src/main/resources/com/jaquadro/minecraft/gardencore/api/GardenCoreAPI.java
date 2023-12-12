@@ -3,9 +3,10 @@ package com.jaquadro.minecraft.gardencore.api;
 import com.jaquadro.minecraft.gardencore.core.ModBlocks;
 import com.jaquadro.minecraft.gardencore.util.UniqueMetaIdentifier;
 import com.jaquadro.minecraft.gardencore.util.UniqueMetaSet;
+import net.minecraft.block.Block;
+
 import java.util.ArrayList;
 import java.util.List;
-import net.minecraft.block.Block;
 
 public final class GardenCoreAPI {
    private UniqueMetaSet smallFlameHostBlocks = new UniqueMetaSet();

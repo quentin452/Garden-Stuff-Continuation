@@ -1,5 +1,13 @@
 package com.jaquadro.minecraft.gardencore.client.renderer;
 
+import com.jaquadro.minecraft.gardencore.api.IPlantMetaResolver;
+import com.jaquadro.minecraft.gardencore.api.IPlantRenderer;
+import com.jaquadro.minecraft.gardencore.api.PlantRegistry;
+import com.jaquadro.minecraft.gardencore.block.BlockGarden;
+import com.jaquadro.minecraft.gardencore.block.BlockGardenProxy;
+import com.jaquadro.minecraft.gardencore.block.tile.TileEntityGarden;
+import com.jaquadro.minecraft.gardencore.core.ClientProxy;
+import cpw.mods.fml.client.registry.ISimpleBlockRenderingHandler;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockDoublePlant;
 import net.minecraft.client.renderer.EntityRenderer;
@@ -9,16 +17,6 @@ import net.minecraft.util.AxisAlignedBB;
 import net.minecraft.util.IIcon;
 import net.minecraft.world.ColorizerGrass;
 import net.minecraft.world.IBlockAccess;
-
-import com.jaquadro.minecraft.gardencore.api.IPlantMetaResolver;
-import com.jaquadro.minecraft.gardencore.api.IPlantRenderer;
-import com.jaquadro.minecraft.gardencore.api.PlantRegistry;
-import com.jaquadro.minecraft.gardencore.block.BlockGarden;
-import com.jaquadro.minecraft.gardencore.block.BlockGardenProxy;
-import com.jaquadro.minecraft.gardencore.block.tile.TileEntityGarden;
-import com.jaquadro.minecraft.gardencore.core.ClientProxy;
-
-import cpw.mods.fml.client.registry.ISimpleBlockRenderingHandler;
 
 public class GardenProxyRenderer implements ISimpleBlockRenderingHandler {
 

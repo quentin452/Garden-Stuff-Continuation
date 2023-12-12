@@ -1,8 +1,8 @@
 package com.jaquadro.minecraft.gardencontainers.inventory;
 
-import java.util.ArrayList;
-import java.util.List;
-
+import com.jaquadro.minecraft.gardencontainers.block.tile.TileEntityPotteryTable;
+import com.jaquadro.minecraft.gardencontainers.core.ModBlocks;
+import com.jaquadro.minecraft.gardencontainers.item.crafting.PotteryManager;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.init.Blocks;
@@ -14,9 +14,8 @@ import net.minecraft.inventory.Slot;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 
-import com.jaquadro.minecraft.gardencontainers.block.tile.TileEntityPotteryTable;
-import com.jaquadro.minecraft.gardencontainers.core.ModBlocks;
-import com.jaquadro.minecraft.gardencontainers.item.crafting.PotteryManager;
+import java.util.ArrayList;
+import java.util.List;
 
 public class ContainerPotteryTable extends Container {
 

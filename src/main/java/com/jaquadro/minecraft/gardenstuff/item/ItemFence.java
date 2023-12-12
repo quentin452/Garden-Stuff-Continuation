@@ -1,9 +1,8 @@
 package com.jaquadro.minecraft.gardenstuff.item;
 
+import com.jaquadro.minecraft.gardenstuff.block.BlockFence;
 import net.minecraft.block.Block;
 import net.minecraft.item.ItemMultiTexture;
-
-import com.jaquadro.minecraft.gardenstuff.block.BlockFence;
 
 public class ItemFence extends ItemMultiTexture {
 

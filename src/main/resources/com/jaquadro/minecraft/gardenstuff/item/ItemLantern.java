@@ -6,7 +6,6 @@ import com.jaquadro.minecraft.gardenstuff.block.tile.TileEntityLantern;
 import com.jaquadro.minecraft.gardenstuff.core.ModBlocks;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
-import java.util.List;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockColored;
 import net.minecraft.entity.player.EntityPlayer;
@@ -18,6 +17,8 @@ import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.util.EnumChatFormatting;
 import net.minecraft.util.StatCollector;
 import net.minecraft.world.World;
+
+import java.util.List;
 
 public class ItemLantern extends ItemBlock {
    public ItemLantern(Block block) {

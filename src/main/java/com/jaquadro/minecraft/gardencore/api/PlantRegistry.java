@@ -1,8 +1,11 @@
 package com.jaquadro.minecraft.gardencore.api;
 
-import java.util.HashMap;
-import java.util.Map;
-
+import com.jaquadro.minecraft.gardencore.api.plant.*;
+import com.jaquadro.minecraft.gardencore.client.renderer.plant.*;
+import com.jaquadro.minecraft.gardencore.core.ModBlocks;
+import com.jaquadro.minecraft.gardencore.integration.VanillaMetaResolver;
+import com.jaquadro.minecraft.gardencore.util.UniqueMetaIdentifier;
+import com.jaquadro.minecraft.gardencore.util.UniqueMetaRegistry;
 import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
@@ -11,20 +14,8 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.world.IBlockAccess;
 import net.minecraftforge.common.IPlantable;
 
-import com.jaquadro.minecraft.gardencore.api.plant.DefaultPlantInfo;
-import com.jaquadro.minecraft.gardencore.api.plant.IPlantInfo;
-import com.jaquadro.minecraft.gardencore.api.plant.PlantSize;
-import com.jaquadro.minecraft.gardencore.api.plant.PlantType;
-import com.jaquadro.minecraft.gardencore.api.plant.SimplePlantInfo;
-import com.jaquadro.minecraft.gardencore.client.renderer.plant.CropsPlantRenderer;
-import com.jaquadro.minecraft.gardencore.client.renderer.plant.CrossedSquaresPlantRenderer;
-import com.jaquadro.minecraft.gardencore.client.renderer.plant.DoublePlantRenderer;
-import com.jaquadro.minecraft.gardencore.client.renderer.plant.GroundCoverPlantRenderer;
-import com.jaquadro.minecraft.gardencore.client.renderer.plant.SunflowerRenderer;
-import com.jaquadro.minecraft.gardencore.core.ModBlocks;
-import com.jaquadro.minecraft.gardencore.integration.VanillaMetaResolver;
-import com.jaquadro.minecraft.gardencore.util.UniqueMetaIdentifier;
-import com.jaquadro.minecraft.gardencore.util.UniqueMetaRegistry;
+import java.util.HashMap;
+import java.util.Map;
 
 public final class PlantRegistry {
 

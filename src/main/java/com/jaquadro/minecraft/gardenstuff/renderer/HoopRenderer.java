@@ -1,16 +1,13 @@
 package com.jaquadro.minecraft.gardenstuff.renderer;
 
-import net.minecraft.block.Block;
-import net.minecraft.client.renderer.RenderBlocks;
-import net.minecraft.world.IBlockAccess;
-
-import org.lwjgl.opengl.GL11;
-
 import com.jaquadro.minecraft.gardencore.client.renderer.support.ModularBoxRenderer;
 import com.jaquadro.minecraft.gardenstuff.block.BlockHoop;
 import com.jaquadro.minecraft.gardenstuff.core.ClientProxy;
-
 import cpw.mods.fml.client.registry.ISimpleBlockRenderingHandler;
+import net.minecraft.block.Block;
+import net.minecraft.client.renderer.RenderBlocks;
+import net.minecraft.world.IBlockAccess;
+import org.lwjgl.opengl.GL11;
 
 public class HoopRenderer implements ISimpleBlockRenderingHandler {
 

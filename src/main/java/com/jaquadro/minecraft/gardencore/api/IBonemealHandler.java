@@ -1,8 +1,7 @@
 package com.jaquadro.minecraft.gardencore.api;
 
-import net.minecraft.world.World;
-
 import com.jaquadro.minecraft.gardencore.block.BlockGarden;
+import net.minecraft.world.World;
 
 public interface IBonemealHandler {
 

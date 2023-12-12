@@ -1,15 +1,14 @@
 package com.jaquadro.minecraft.gardenapi.internal.registry;
 
-import net.minecraft.block.Block;
-import net.minecraft.init.Blocks;
-import net.minecraft.item.ItemStack;
-
 import com.jaquadro.minecraft.gardenapi.api.connect.IAttachable;
 import com.jaquadro.minecraft.gardenapi.api.connect.IAttachableRegistry;
 import com.jaquadro.minecraft.gardenapi.api.connect.StandardAttachable;
 import com.jaquadro.minecraft.gardencore.util.UniqueMetaIdentifier;
 import com.jaquadro.minecraft.gardencore.util.UniqueMetaRegistry;
 import com.jaquadro.minecraft.gardenstuff.core.ModBlocks;
+import net.minecraft.block.Block;
+import net.minecraft.init.Blocks;
+import net.minecraft.item.ItemStack;
 
 public class AttachableRegistry implements IAttachableRegistry {
 

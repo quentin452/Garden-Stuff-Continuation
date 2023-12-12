@@ -1,5 +1,11 @@
 package com.jaquadro.minecraft.gardenstuff.renderer;
 
+import com.jaquadro.minecraft.gardenapi.api.GardenAPI;
+import com.jaquadro.minecraft.gardenapi.api.connect.IAttachable;
+import com.jaquadro.minecraft.gardenapi.api.connect.IChainSingleAttachable;
+import com.jaquadro.minecraft.gardenstuff.block.BlockHeavyChain;
+import com.jaquadro.minecraft.gardenstuff.core.ClientProxy;
+import cpw.mods.fml.client.registry.ISimpleBlockRenderingHandler;
 import net.minecraft.block.Block;
 import net.minecraft.client.renderer.EntityRenderer;
 import net.minecraft.client.renderer.RenderBlocks;
@@ -7,14 +13,6 @@ import net.minecraft.client.renderer.Tessellator;
 import net.minecraft.util.IIcon;
 import net.minecraft.util.Vec3;
 import net.minecraft.world.IBlockAccess;
-
-import com.jaquadro.minecraft.gardenapi.api.GardenAPI;
-import com.jaquadro.minecraft.gardenapi.api.connect.IAttachable;
-import com.jaquadro.minecraft.gardenapi.api.connect.IChainSingleAttachable;
-import com.jaquadro.minecraft.gardenstuff.block.BlockHeavyChain;
-import com.jaquadro.minecraft.gardenstuff.core.ClientProxy;
-
-import cpw.mods.fml.client.registry.ISimpleBlockRenderingHandler;
 
 public class HeavyChainRenderer implements ISimpleBlockRenderingHandler {
 

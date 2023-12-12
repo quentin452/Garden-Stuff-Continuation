@@ -1,18 +1,10 @@
 package com.jaquadro.minecraft.gardenstuff.core;
 
+import com.jaquadro.minecraft.gardenstuff.renderer.*;
+import com.jaquadro.minecraft.gardenstuff.renderer.item.LanternItemRenderer;
+import cpw.mods.fml.client.registry.RenderingRegistry;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.MinecraftForgeClient;
-
-import com.jaquadro.minecraft.gardenstuff.renderer.CandelabraRenderer;
-import com.jaquadro.minecraft.gardenstuff.renderer.FenceRenderer;
-import com.jaquadro.minecraft.gardenstuff.renderer.HeavyChainRenderer;
-import com.jaquadro.minecraft.gardenstuff.renderer.HoopRenderer;
-import com.jaquadro.minecraft.gardenstuff.renderer.LanternRenderer;
-import com.jaquadro.minecraft.gardenstuff.renderer.LatticeRenderer;
-import com.jaquadro.minecraft.gardenstuff.renderer.LightChainRenderer;
-import com.jaquadro.minecraft.gardenstuff.renderer.item.LanternItemRenderer;
-
-import cpw.mods.fml.client.registry.RenderingRegistry;
 
 public class ClientProxy extends CommonProxy {
 

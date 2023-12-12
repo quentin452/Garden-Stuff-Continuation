@@ -1,9 +1,8 @@
 package com.jaquadro.minecraft.gardenapi.api.plant;
 
+import com.jaquadro.minecraft.gardenapi.api.util.IUniqueID;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
-
-import com.jaquadro.minecraft.gardenapi.api.util.IUniqueID;
 
 public interface ISaplingRegistry {
 

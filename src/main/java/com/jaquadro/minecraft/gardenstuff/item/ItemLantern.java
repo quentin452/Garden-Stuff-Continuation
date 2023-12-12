@@ -1,7 +1,11 @@
 package com.jaquadro.minecraft.gardenstuff.item;
 
-import java.util.List;
-
+import com.jaquadro.minecraft.gardenapi.api.component.ILanternSource;
+import com.jaquadro.minecraft.gardenapi.internal.Api;
+import com.jaquadro.minecraft.gardenstuff.block.tile.TileEntityLantern;
+import com.jaquadro.minecraft.gardenstuff.core.ModBlocks;
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockColored;
 import net.minecraft.entity.player.EntityPlayer;
@@ -14,13 +18,7 @@ import net.minecraft.util.EnumChatFormatting;
 import net.minecraft.util.StatCollector;
 import net.minecraft.world.World;
 
-import com.jaquadro.minecraft.gardenapi.api.component.ILanternSource;
-import com.jaquadro.minecraft.gardenapi.internal.Api;
-import com.jaquadro.minecraft.gardenstuff.block.tile.TileEntityLantern;
-import com.jaquadro.minecraft.gardenstuff.core.ModBlocks;
-
-import cpw.mods.fml.relauncher.Side;
-import cpw.mods.fml.relauncher.SideOnly;
+import java.util.List;
 
 public class ItemLantern extends ItemBlock {
 

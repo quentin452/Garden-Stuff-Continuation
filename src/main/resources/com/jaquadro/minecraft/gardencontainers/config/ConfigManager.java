@@ -1,11 +1,12 @@
 package com.jaquadro.minecraft.gardencontainers.config;
 
-import java.io.File;
-import java.util.ArrayList;
-import java.util.List;
 import net.minecraftforge.common.config.ConfigCategory;
 import net.minecraftforge.common.config.Configuration;
 import net.minecraftforge.common.config.Property;
+
+import java.io.File;
+import java.util.ArrayList;
+import java.util.List;
 
 public class ConfigManager {
    private static final String CAT_PATTERNS = "1_patterns";

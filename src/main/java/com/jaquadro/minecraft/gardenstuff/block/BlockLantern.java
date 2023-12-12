@@ -1,10 +1,17 @@
 package com.jaquadro.minecraft.gardenstuff.block;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Random;
-
+import com.jaquadro.minecraft.gardenapi.api.component.ILanternSource;
+import com.jaquadro.minecraft.gardenapi.api.component.IRedstoneSource;
+import com.jaquadro.minecraft.gardenapi.internal.Api;
+import com.jaquadro.minecraft.gardencore.core.ModCreativeTabs;
+import com.jaquadro.minecraft.gardenstuff.block.tile.TileEntityLantern;
+import com.jaquadro.minecraft.gardenstuff.core.ClientProxy;
+import com.jaquadro.minecraft.gardenstuff.integration.ColoredLightsIntegration;
+import com.jaquadro.minecraft.gardenstuff.item.ItemLantern;
+import cpw.mods.fml.common.Optional.Interface;
+import cpw.mods.fml.common.Optional.Method;
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockContainer;
 import net.minecraft.block.material.Material;
@@ -21,21 +28,12 @@ import net.minecraft.util.AxisAlignedBB;
 import net.minecraft.util.IIcon;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
-
-import com.jaquadro.minecraft.gardenapi.api.component.ILanternSource;
-import com.jaquadro.minecraft.gardenapi.api.component.IRedstoneSource;
-import com.jaquadro.minecraft.gardenapi.internal.Api;
-import com.jaquadro.minecraft.gardencore.core.ModCreativeTabs;
-import com.jaquadro.minecraft.gardenstuff.block.tile.TileEntityLantern;
-import com.jaquadro.minecraft.gardenstuff.core.ClientProxy;
-import com.jaquadro.minecraft.gardenstuff.integration.ColoredLightsIntegration;
-import com.jaquadro.minecraft.gardenstuff.item.ItemLantern;
-
-import cpw.mods.fml.common.Optional.Interface;
-import cpw.mods.fml.common.Optional.Method;
-import cpw.mods.fml.relauncher.Side;
-import cpw.mods.fml.relauncher.SideOnly;
 import thaumcraft.api.crafting.IInfusionStabiliser;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Random;
 
 @Interface(iface = "thaumcraft.api.crafting.IInfusionStabiliser", modid = "Thaumcraft", striprefs = true)
 public class BlockLantern extends BlockContainer implements IInfusionStabiliser {

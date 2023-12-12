@@ -1,12 +1,10 @@
 package com.jaquadro.minecraft.gardencore.integration;
 
-import net.minecraft.item.ItemStack;
-
+import codechicken.nei.recipe.TemplateRecipeHandler;
 import com.jaquadro.minecraft.gardencore.client.gui.GuiCompostBin;
 import com.jaquadro.minecraft.gardencore.core.ModItems;
-
-import codechicken.nei.recipe.TemplateRecipeHandler;
 import cpw.mods.fml.common.Loader;
+import net.minecraft.item.ItemStack;
 
 public class NEIIntegration {
 
