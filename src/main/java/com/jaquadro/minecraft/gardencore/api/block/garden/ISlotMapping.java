@@ -1,11 +1,12 @@
 package com.jaquadro.minecraft.gardencore.api.block.garden;
 
 public interface ISlotMapping {
-   int getSlot();
 
-   int getMappedSlot();
+    int getSlot();
 
-   int getMappedX();
+    int getMappedSlot();
 
-   int getMappedZ();
+    int getMappedX();
+
+    int getMappedZ();
 }

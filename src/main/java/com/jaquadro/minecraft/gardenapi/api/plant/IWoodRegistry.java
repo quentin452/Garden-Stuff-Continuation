@@ -1,17 +1,20 @@
 package com.jaquadro.minecraft.gardenapi.api.plant;
 
-import com.jaquadro.minecraft.gardenapi.api.util.IUniqueID;
 import java.util.Set;
+
 import net.minecraft.block.Block;
 
+import com.jaquadro.minecraft.gardenapi.api.util.IUniqueID;
+
 public interface IWoodRegistry {
-   void registerWoodType(Block var1, int var2);
 
-   void registerWoodType(IUniqueID var1);
+    void registerWoodType(Block var1, int var2);
 
-   Set registeredTypes();
+    void registerWoodType(IUniqueID var1);
 
-   boolean contains(Block var1, int var2);
+    Set registeredTypes();
 
-   boolean contains(IUniqueID var1);
+    boolean contains(Block var1, int var2);
+
+    boolean contains(IUniqueID var1);
 }

@@ -6,76 +6,77 @@ import net.minecraft.inventory.IInventory;
 import net.minecraft.item.ItemStack;
 
 public class InventoryGarden implements IInventory {
-   private IInventory parent;
-   private Container container;
 
-   public InventoryGarden(IInventory parentInventory, Container container) {
-      this.parent = parentInventory;
-      this.container = container;
-   }
+    private IInventory parent;
+    private Container container;
 
-   public int getSizeInventory() {
-      return this.parent.getSizeInventory();
-   }
+    public InventoryGarden(IInventory parentInventory, Container container) {
+        this.parent = parentInventory;
+        this.container = container;
+    }
 
-   public ItemStack getStackInSlot(int slot) {
-      return this.parent.getStackInSlot(slot);
-   }
+    public int getSizeInventory() {
+        return this.parent.getSizeInventory();
+    }
 
-   public ItemStack decrStackSize(int slot, int count) {
-      ItemStack stack = this.parent.getStackInSlot(slot);
-      if (stack == null) {
-         return null;
-      } else {
-         int stackCount = stack.stackSize;
-         ItemStack result = this.parent.decrStackSize(slot, count);
-         ItemStack stackAfter = this.parent.getStackInSlot(slot);
-         if (stack != stackAfter || stackCount != stackAfter.stackSize) {
-            this.container.onCraftMatrixChanged(this);
-         }
+    public ItemStack getStackInSlot(int slot) {
+        return this.parent.getStackInSlot(slot);
+    }
 
-         return result;
-      }
-   }
+    public ItemStack decrStackSize(int slot, int count) {
+        ItemStack stack = this.parent.getStackInSlot(slot);
+        if (stack == null) {
+            return null;
+        } else {
+            int stackCount = stack.stackSize;
+            ItemStack result = this.parent.decrStackSize(slot, count);
+            ItemStack stackAfter = this.parent.getStackInSlot(slot);
+            if (stack != stackAfter || stackCount != stackAfter.stackSize) {
+                this.container.onCraftMatrixChanged(this);
+            }
 
-   public ItemStack getStackInSlotOnClosing(int slot) {
-      return this.parent.getStackInSlot(slot);
-   }
+            return result;
+        }
+    }
 
-   public void setInventorySlotContents(int slot, ItemStack itemStack) {
-      this.parent.setInventorySlotContents(slot, itemStack);
-      this.container.onCraftMatrixChanged(this);
-   }
+    public ItemStack getStackInSlotOnClosing(int slot) {
+        return this.parent.getStackInSlot(slot);
+    }
 
-   public String getInventoryName() {
-      return this.parent.getInventoryName();
-   }
+    public void setInventorySlotContents(int slot, ItemStack itemStack) {
+        this.parent.setInventorySlotContents(slot, itemStack);
+        this.container.onCraftMatrixChanged(this);
+    }
 
-   public boolean hasCustomInventoryName() {
-      return this.parent.hasCustomInventoryName();
-   }
+    public String getInventoryName() {
+        return this.parent.getInventoryName();
+    }
 
-   public int getInventoryStackLimit() {
-      return this.parent.getInventoryStackLimit();
-   }
+    public boolean hasCustomInventoryName() {
+        return this.parent.hasCustomInventoryName();
+    }
 
-   public void markDirty() {
-      this.parent.markDirty();
-   }
+    public int getInventoryStackLimit() {
+        return this.parent.getInventoryStackLimit();
+    }
 
-   public boolean isUseableByPlayer(EntityPlayer player) {
-      return this.parent.isUseableByPlayer(player);
-   }
+    public void markDirty() {
+        this.parent.markDirty();
+    }
 
-   public void openInventory() {
-      this.parent.openInventory();
-   }
+    public boolean isUseableByPlayer(EntityPlayer player) {
+        return this.parent.isUseableByPlayer(player);
+    }
 
-   public void closeInventory() {
-      this.parent.closeInventory();
-   }
+    public void openInventory() {
+        this.parent.openInventory();
+    }
 
-   public boolean isItemValidForSlot(int slot, ItemStack itemStack) {
-      return this.parent.isItemValidForSlot(slot, itemStack);
-   }
+    public void closeInventory() {
+        this.parent.closeInventory();
+    }
+
+    public boolean isItemValidForSlot(int slot, ItemStack itemStack) {
+        return this.parent.isItemValidForSlot(slot, itemStack);
+    }
 }

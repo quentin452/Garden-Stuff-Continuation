@@ -1,5 +1,9 @@
 package com.jaquadro.minecraft.gardentrees.core;
 
+import net.minecraft.block.Block;
+
+import org.apache.logging.log4j.Level;
+
 import com.jaquadro.minecraft.gardencore.util.UniqueMetaIdentifier;
 import com.jaquadro.minecraft.gardentrees.block.BlockCandelilla;
 import com.jaquadro.minecraft.gardentrees.block.BlockFlowerLeaves;
@@ -13,57 +17,63 @@ import com.jaquadro.minecraft.gardentrees.item.ItemGTSapling;
 import com.jaquadro.minecraft.gardentrees.item.ItemIvy;
 import com.jaquadro.minecraft.gardentrees.item.ItemThinLog;
 import com.jaquadro.minecraft.gardentrees.item.ItemThinLogFence;
+
 import cpw.mods.fml.common.FMLLog;
 import cpw.mods.fml.common.registry.GameData;
 import cpw.mods.fml.common.registry.GameRegistry;
-import net.minecraft.block.Block;
-import org.apache.logging.log4j.Level;
 
 public class ModBlocks {
-   public static BlockThinLog thinLog;
-   public static BlockThinLogFence thinLogFence;
-   public static BlockFlowerLeaves flowerLeaves;
-   public static BlockGTSapling sapling;
-   public static BlockIvy ivy;
-   public static BlockStrangePlant strangePlant;
-   public static BlockCandelilla candelilla;
 
-   public void init() {
-      thinLog = new BlockThinLog(makeName("thinLog"));
-      thinLogFence = new BlockThinLogFence(makeName("thinLogFence"));
-      flowerLeaves = new BlockFlowerLeaves(makeName("flowerLeaves"));
-      sapling = new BlockGTSapling(makeName("sapling"));
-      ivy = new BlockIvy(makeName("ivy"));
-      strangePlant = new BlockStrangePlant(makeName("strangePlant"));
-      candelilla = new BlockCandelilla(makeName("candelilla"));
-      GameRegistry.registerBlock(sapling, ItemGTSapling.class, "sapling");
-      GameRegistry.registerBlock(thinLog, ItemThinLog.class, "thin_log");
-      GameRegistry.registerBlock(thinLogFence, ItemThinLogFence.class, "thin_log_fence");
-      GameRegistry.registerBlock(ivy, ItemIvy.class, "ivy");
-      GameRegistry.registerBlock(strangePlant, "strange_plant");
-      GameRegistry.registerBlock(candelilla, "candelilla_bush");
-      GameRegistry.registerTileEntity(TileEntityWoodProxy.class, getQualifiedName(thinLog));
-   }
+    public static BlockThinLog thinLog;
+    public static BlockThinLogFence thinLogFence;
+    public static BlockFlowerLeaves flowerLeaves;
+    public static BlockGTSapling sapling;
+    public static BlockIvy ivy;
+    public static BlockStrangePlant strangePlant;
+    public static BlockCandelilla candelilla;
 
-   public static String makeName(String name) {
-      return "GardenTrees".toLowerCase() + "." + name;
-   }
+    public void init() {
+        thinLog = new BlockThinLog(makeName("thinLog"));
+        thinLogFence = new BlockThinLogFence(makeName("thinLogFence"));
+        flowerLeaves = new BlockFlowerLeaves(makeName("flowerLeaves"));
+        sapling = new BlockGTSapling(makeName("sapling"));
+        ivy = new BlockIvy(makeName("ivy"));
+        strangePlant = new BlockStrangePlant(makeName("strangePlant"));
+        candelilla = new BlockCandelilla(makeName("candelilla"));
+        GameRegistry.registerBlock(sapling, ItemGTSapling.class, "sapling");
+        GameRegistry.registerBlock(thinLog, ItemThinLog.class, "thin_log");
+        GameRegistry.registerBlock(thinLogFence, ItemThinLogFence.class, "thin_log_fence");
+        GameRegistry.registerBlock(ivy, ItemIvy.class, "ivy");
+        GameRegistry.registerBlock(strangePlant, "strange_plant");
+        GameRegistry.registerBlock(candelilla, "candelilla_bush");
+        GameRegistry.registerTileEntity(TileEntityWoodProxy.class, getQualifiedName(thinLog));
+    }
 
-   public static Block get(String name) {
-      return GameRegistry.findBlock("GardenTrees", name);
-   }
+    public static String makeName(String name) {
+        return "GardenTrees".toLowerCase() + "." + name;
+    }
 
-   public static String getQualifiedName(Block block) {
-      return GameData.getBlockRegistry().getNameForObject(block);
-   }
+    public static Block get(String name) {
+        return GameRegistry.findBlock("GardenTrees", name);
+    }
 
-   public static UniqueMetaIdentifier getUniqueMetaID(Block block, int meta) {
-      String name = GameData.getBlockRegistry().getNameForObject(block);
-      if (name == null) {
-         FMLLog.log("GardenTrees", Level.WARN, "Tried to make a UniqueMetaIdentifier from an invalid block", new Object[0]);
-         return null;
-      } else {
-         return new UniqueMetaIdentifier(name, meta);
-      }
-   }
+    public static String getQualifiedName(Block block) {
+        return GameData.getBlockRegistry()
+            .getNameForObject(block);
+    }
+
+    public static UniqueMetaIdentifier getUniqueMetaID(Block block, int meta) {
+        String name = GameData.getBlockRegistry()
+            .getNameForObject(block);
+        if (name == null) {
+            FMLLog.log(
+                "GardenTrees",
+                Level.WARN,
+                "Tried to make a UniqueMetaIdentifier from an invalid block",
+                new Object[0]);
+            return null;
+        } else {
+            return new UniqueMetaIdentifier(name, meta);
+        }
+    }
 }

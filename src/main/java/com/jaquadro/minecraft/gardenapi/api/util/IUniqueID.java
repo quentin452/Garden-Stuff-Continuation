@@ -1,16 +1,18 @@
 package com.jaquadro.minecraft.gardenapi.api.util;
 
-import cpw.mods.fml.common.registry.GameRegistry.UniqueIdentifier;
 import net.minecraft.block.Block;
 
+import cpw.mods.fml.common.registry.GameRegistry.UniqueIdentifier;
+
 public interface IUniqueID {
-   String getModId();
 
-   String getName();
+    String getModId();
 
-   int getMeta();
+    String getName();
 
-   UniqueIdentifier getUniqueIdentifier();
+    int getMeta();
 
-   Block getBlock();
+    UniqueIdentifier getUniqueIdentifier();
+
+    Block getBlock();
 }

@@ -1,17 +1,19 @@
 package com.jaquadro.minecraft.gardenstuff.block.tile;
 
-import com.jaquadro.minecraft.gardencore.block.tile.TileEntityBlockMateralProxy;
 import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;
 
+import com.jaquadro.minecraft.gardencore.block.tile.TileEntityBlockMateralProxy;
+
 public class TileEntityLatticeWood extends TileEntityLattice {
-   public static final TileEntityLatticeWood instance = new TileEntityLatticeWood();
 
-   protected TileEntityBlockMateralProxy createTileEntity() {
-      return new TileEntityLatticeWood();
-   }
+    public static final TileEntityLatticeWood instance = new TileEntityLatticeWood();
 
-   protected Block getBlockFromStandardMetadata(int metadata) {
-      return Blocks.planks;
-   }
+    protected TileEntityBlockMateralProxy createTileEntity() {
+        return new TileEntityLatticeWood();
+    }
+
+    protected Block getBlockFromStandardMetadata(int metadata) {
+        return Blocks.planks;
+    }
 }

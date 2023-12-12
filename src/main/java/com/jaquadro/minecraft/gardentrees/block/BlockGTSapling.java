@@ -1,10 +1,8 @@
 package com.jaquadro.minecraft.gardentrees.block;
 
-import com.jaquadro.minecraft.gardentrees.core.ModCreativeTabs;
-import cpw.mods.fml.relauncher.Side;
-import cpw.mods.fml.relauncher.SideOnly;
 import java.util.List;
 import java.util.Random;
+
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockSapling;
 import net.minecraft.client.renderer.texture.IIconRegister;
@@ -21,75 +19,85 @@ import net.minecraft.world.gen.feature.WorldGenTaiga1;
 import net.minecraft.world.gen.feature.WorldGenerator;
 import net.minecraftforge.event.terraingen.TerrainGen;
 
+import com.jaquadro.minecraft.gardentrees.core.ModCreativeTabs;
+
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
+
 public class BlockGTSapling extends BlockSapling {
-   public static final String[] types = new String[]{"pine", "swamp", "tallbirch"};
-   @SideOnly(Side.CLIENT)
-   private static IIcon[] icons;
 
-   public BlockGTSapling(String name) {
-      this.setBlockName(name);
-      this.setBlockTextureName("sapling");
-      this.setStepSound(Block.soundTypeGrass);
-      this.setCreativeTab(ModCreativeTabs.tabGardenTrees);
-   }
+    public static final String[] types = new String[] { "pine", "swamp", "tallbirch" };
+    @SideOnly(Side.CLIENT)
+    private static IIcon[] icons;
 
-   @SideOnly(Side.CLIENT)
-   public IIcon getIcon(int side, int meta) {
-      meta &= 7;
-      return icons[MathHelper.clamp_int(meta, 0, types.length - 1)];
-   }
+    public BlockGTSapling(String name) {
+        this.setBlockName(name);
+        this.setBlockTextureName("sapling");
+        this.setStepSound(Block.soundTypeGrass);
+        this.setCreativeTab(ModCreativeTabs.tabGardenTrees);
+    }
 
-   public void func_149878_d(World world, int x, int y, int z, Random random) {
-      if (TerrainGen.saplingGrowTree(world, random, x, y, z)) {
-         int id = world.getBlockMetadata(x, y, z) & 7;
-         WorldGenerator generator = null;
-         switch(id) {
-         case 0:
-            generator = new WorldGenTaiga1() {
-               protected void setBlockAndNotifyAdequately(World world, int x, int y, int z, Block block, int meta) {
-                  world.setBlock(x, y, z, block, meta, 3);
-               }
-            };
-            break;
-         case 1:
-            generator = new WorldGenSwamp() {
-               protected void setBlockAndNotifyAdequately(World world, int x, int y, int z, Block block, int meta) {
-                  world.setBlock(x, y, z, block, meta, 3);
-               }
-            };
-            break;
-         case 2:
-            generator = new WorldGenForest(true, true);
-            break;
-         default:
-            return;
-         }
+    @SideOnly(Side.CLIENT)
+    public IIcon getIcon(int side, int meta) {
+        meta &= 7;
+        return icons[MathHelper.clamp_int(meta, 0, types.length - 1)];
+    }
 
-         world.setBlock(x, y, z, Blocks.air, 0, 4);
-         if (!((WorldGenerator)generator).generate(world, random, x, y, z)) {
-            world.setBlock(x, y, z, this, id, 4);
-         }
+    public void func_149878_d(World world, int x, int y, int z, Random random) {
+        if (TerrainGen.saplingGrowTree(world, random, x, y, z)) {
+            int id = world.getBlockMetadata(x, y, z) & 7;
+            WorldGenerator generator = null;
+            switch (id) {
+                case 0:
+                    generator = new WorldGenTaiga1() {
 
-      }
-   }
+                        protected void setBlockAndNotifyAdequately(World world, int x, int y, int z, Block block,
+                            int meta) {
+                            world.setBlock(x, y, z, block, meta, 3);
+                        }
+                    };
+                    break;
+                case 1:
+                    generator = new WorldGenSwamp() {
 
-   public int damageDropped(int meta) {
-      return MathHelper.clamp_int(meta & 7, 0, types.length);
-   }
+                        protected void setBlockAndNotifyAdequately(World world, int x, int y, int z, Block block,
+                            int meta) {
+                            world.setBlock(x, y, z, block, meta, 3);
+                        }
+                    };
+                    break;
+                case 2:
+                    generator = new WorldGenForest(true, true);
+                    break;
+                default:
+                    return;
+            }
 
-   @SideOnly(Side.CLIENT)
-   public void getSubBlocks(Item item, CreativeTabs creativeTabs, List list) {
-      list.add(new ItemStack(item, 1, 0));
-      list.add(new ItemStack(item, 1, 1));
-      list.add(new ItemStack(item, 1, 2));
-   }
+            world.setBlock(x, y, z, Blocks.air, 0, 4);
+            if (!((WorldGenerator) generator).generate(world, random, x, y, z)) {
+                world.setBlock(x, y, z, this, id, 4);
+            }
 
-   public void registerBlockIcons(IIconRegister register) {
-      icons = new IIcon[types.length];
+        }
+    }
 
-      for(int i = 0; i < types.length; ++i) {
-         icons[i] = register.registerIcon("GardenTrees:" + this.getTextureName() + "_" + types[i]);
-      }
+    public int damageDropped(int meta) {
+        return MathHelper.clamp_int(meta & 7, 0, types.length);
+    }
 
-   }
+    @SideOnly(Side.CLIENT)
+    public void getSubBlocks(Item item, CreativeTabs creativeTabs, List list) {
+        list.add(new ItemStack(item, 1, 0));
+        list.add(new ItemStack(item, 1, 1));
+        list.add(new ItemStack(item, 1, 2));
+    }
+
+    public void registerBlockIcons(IIconRegister register) {
+        icons = new IIcon[types.length];
+
+        for (int i = 0; i < types.length; ++i) {
+            icons[i] = register.registerIcon("GardenTrees:" + this.getTextureName() + "_" + types[i]);
+        }
+
+    }
 }

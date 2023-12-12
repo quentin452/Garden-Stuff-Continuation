@@ -8,15 +8,16 @@ import com.jaquadro.minecraft.gardenapi.api.plant.ISaplingRegistry;
 import com.jaquadro.minecraft.gardenapi.api.plant.IWoodRegistry;
 
 public interface IRegistryContainer {
-   IPlantRegistry plants();
 
-   ISaplingRegistry saplings();
+    IPlantRegistry plants();
 
-   IWoodRegistry wood();
+    ISaplingRegistry saplings();
 
-   ILanternSourceRegistry lanternSources();
+    IWoodRegistry wood();
 
-   ICompostRegistry compost();
+    ILanternSourceRegistry lanternSources();
 
-   IAttachableRegistry attachable();
+    ICompostRegistry compost();
+
+    IAttachableRegistry attachable();
 }

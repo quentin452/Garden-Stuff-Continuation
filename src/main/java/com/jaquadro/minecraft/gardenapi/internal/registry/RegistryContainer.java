@@ -9,31 +9,32 @@ import com.jaquadro.minecraft.gardenapi.api.plant.ISaplingRegistry;
 import com.jaquadro.minecraft.gardenapi.api.plant.IWoodRegistry;
 
 public class RegistryContainer implements IRegistryContainer {
-   public LanternSourceRegistry lanternSources = new LanternSourceRegistry();
-   public CompostRegistry compost = new CompostRegistry();
-   public AttachableRegistry attachable = new AttachableRegistry();
 
-   public IPlantRegistry plants() {
-      return null;
-   }
+    public LanternSourceRegistry lanternSources = new LanternSourceRegistry();
+    public CompostRegistry compost = new CompostRegistry();
+    public AttachableRegistry attachable = new AttachableRegistry();
 
-   public ISaplingRegistry saplings() {
-      return null;
-   }
+    public IPlantRegistry plants() {
+        return null;
+    }
 
-   public IWoodRegistry wood() {
-      return null;
-   }
+    public ISaplingRegistry saplings() {
+        return null;
+    }
 
-   public ILanternSourceRegistry lanternSources() {
-      return this.lanternSources;
-   }
+    public IWoodRegistry wood() {
+        return null;
+    }
 
-   public ICompostRegistry compost() {
-      return this.compost;
-   }
+    public ILanternSourceRegistry lanternSources() {
+        return this.lanternSources;
+    }
 
-   public IAttachableRegistry attachable() {
-      return this.attachable;
-   }
+    public ICompostRegistry compost() {
+        return this.compost;
+    }
+
+    public IAttachableRegistry attachable() {
+        return this.attachable;
+    }
 }

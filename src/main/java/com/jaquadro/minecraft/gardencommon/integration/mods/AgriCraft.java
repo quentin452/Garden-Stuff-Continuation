@@ -9,19 +9,19 @@ import com.jaquadro.minecraft.gardencommon.integration.IntegrationModule;
 import com.jaquadro.minecraft.gardencore.core.ModBlocks;
 
 public class AgriCraft extends IntegrationModule {
-   public String getModID() {
-      return "AgriCraft";
-   }
 
-   public void init() throws Throwable {
-      APIBase api = API.getAPI(1);
-      if (api.getStatus() == APIStatus.OK && api.getVersion() == 1) {
-         APIv1 agricraft = (APIv1)api;
-         agricraft.registerDefaultSoil(new BlockWithMeta(ModBlocks.gardenFarmland));
-      }
+    public String getModID() {
+        return "AgriCraft";
+    }
 
-   }
+    public void init() throws Throwable {
+        APIBase api = API.getAPI(1);
+        if (api.getStatus() == APIStatus.OK && api.getVersion() == 1) {
+            APIv1 agricraft = (APIv1) api;
+            agricraft.registerDefaultSoil(new BlockWithMeta(ModBlocks.gardenFarmland));
+        }
 
-   public void postInit() throws Throwable {
-   }
+    }
+
+    public void postInit() throws Throwable {}
 }

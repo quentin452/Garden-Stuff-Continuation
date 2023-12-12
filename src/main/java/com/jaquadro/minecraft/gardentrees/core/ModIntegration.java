@@ -10,17 +10,18 @@ import com.jaquadro.minecraft.gardentrees.integration.TwilightForestIntegration;
 import com.jaquadro.minecraft.gardentrees.integration.WitcheryIntegration;
 
 public class ModIntegration {
-   public void init() {
-      TreecapitatorIntegration.init();
-   }
 
-   public void postInit() {
-      GardenCoreIntegration.init();
-      NaturaIntegration.init();
-      TwilightForestIntegration.init();
-      ThaumcraftIntegration.init();
-      ExtraBiomesXLIntegration.init();
-      TinkersConstructIntegration.init();
-      WitcheryIntegration.init();
-   }
+    public void init() {
+        TreecapitatorIntegration.init();
+    }
+
+    public void postInit() {
+        GardenCoreIntegration.init();
+        NaturaIntegration.init();
+        TwilightForestIntegration.init();
+        ThaumcraftIntegration.init();
+        ExtraBiomesXLIntegration.init();
+        TinkersConstructIntegration.init();
+        WitcheryIntegration.init();
+    }
 }

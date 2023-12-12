@@ -1,29 +1,37 @@
 package com.jaquadro.minecraft.gardenstuff.integration.lantern;
 
-import com.jaquadro.minecraft.gardenapi.api.component.StandardLanternSource;
-import com.jaquadro.minecraft.gardenstuff.integration.TwilightForestIntegration;
-import cpw.mods.fml.relauncher.Side;
-import cpw.mods.fml.relauncher.SideOnly;
 import java.util.Random;
+
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraft.world.World;
 
+import com.jaquadro.minecraft.gardenapi.api.component.StandardLanternSource;
+import com.jaquadro.minecraft.gardenstuff.integration.TwilightForestIntegration;
+
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
+
 public class FireflyLanternSource extends StandardLanternSource {
-   private Block blockFirefly;
 
-   public FireflyLanternSource(Block blockFirefly) {
-      super(new StandardLanternSource.LanternSourceInfo("firefly", Item.getItemFromBlock(blockFirefly), blockFirefly.getLightValue()));
-      this.blockFirefly = blockFirefly;
-   }
+    private Block blockFirefly;
 
-   @SideOnly(Side.CLIENT)
-   public void renderParticle(World world, int x, int y, int z, Random rand, int meta) {
-      TwilightForestIntegration.doFireflyEffect(world, x, y, z, rand);
-   }
+    public FireflyLanternSource(Block blockFirefly) {
+        super(
+            new StandardLanternSource.LanternSourceInfo(
+                "firefly",
+                Item.getItemFromBlock(blockFirefly),
+                blockFirefly.getLightValue()));
+        this.blockFirefly = blockFirefly;
+    }
 
-   @SideOnly(Side.CLIENT)
-   public boolean renderInPass(int pass) {
-      return false;
-   }
+    @SideOnly(Side.CLIENT)
+    public void renderParticle(World world, int x, int y, int z, Random rand, int meta) {
+        TwilightForestIntegration.doFireflyEffect(world, x, y, z, rand);
+    }
+
+    @SideOnly(Side.CLIENT)
+    public boolean renderInPass(int pass) {
+        return false;
+    }
 }
